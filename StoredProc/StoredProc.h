@@ -1,6 +1,7 @@
 #pragma once
 
 #include "detail/StoredProcedure.h"
+#include <ModelUtil/ModelUtil.h>
 #include <cstdint>
 #include <memory>
 #include <nanodbc/nanodbc.h>
