@@ -1,5 +1,5 @@
-#ifndef STOREDPROC_H
-#define STOREDPROC_H
+#ifndef STOREDPROC_STOREDPROC_H
+#define STOREDPROC_STOREDPROC_H
 
 #pragma once
 
@@ -1595,4 +1595,4 @@ namespace storedProc
 	};
 }
 
-#endif // STOREDPROC_H
+#endif // STOREDPROC_STOREDPROC_H

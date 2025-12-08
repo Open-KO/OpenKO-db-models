@@ -1,5 +1,5 @@
-#ifndef FULLBINDER_H
-#define FULLBINDER_H
+#ifndef FULL_BINDER_FULLBINDER_H
+#define FULL_BINDER_FULLBINDER_H
 
 #pragma once
 
@@ -4180,4 +4180,4 @@ namespace full_binder
 	};
 }
 
-#endif // FULLBINDER_H
+#endif // FULL_BINDER_FULLBINDER_H

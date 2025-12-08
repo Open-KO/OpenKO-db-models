@@ -1,5 +1,5 @@
-#ifndef AUJARDBINDER_H
-#define AUJARDBINDER_H
+#ifndef AUJARD_BINDER_AUJARDBINDER_H
+#define AUJARD_BINDER_AUJARDBINDER_H
 
 #pragma once
 
@@ -181,4 +181,4 @@ namespace aujard_binder
 	};
 }
 
-#endif // AUJARDBINDER_H
+#endif // AUJARD_BINDER_AUJARDBINDER_H

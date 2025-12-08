@@ -1,5 +1,5 @@
-#ifndef AUJARDMODEL_H
-#define AUJARDMODEL_H
+#ifndef AUJARD_MODEL_AUJARDMODEL_H
+#define AUJARD_MODEL_AUJARDMODEL_H
 
 #pragma once
 
@@ -345,4 +345,4 @@ namespace aujard_model
 	};
 }
 
-#endif // AUJARDMODEL_H
+#endif // AUJARD_MODEL_AUJARDMODEL_H

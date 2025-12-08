@@ -1,5 +1,5 @@
-﻿#ifndef MODELUTIL_H
-#define MODELUTIL_H
+﻿#ifndef MODELUTIL_MODELUTIL_H
+#define MODELUTIL_MODELUTIL_H
 
 #pragma once
 
@@ -22,4 +22,4 @@ namespace modelUtil
     const std::string& DbTypeString(DbType db);
 }
 
-#endif // MODELUTIL_H
+#endif // MODELUTIL_MODELUTIL_H

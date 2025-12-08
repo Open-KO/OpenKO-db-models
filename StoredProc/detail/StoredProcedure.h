@@ -1,3 +1,6 @@
+#ifndef STOREDPROC_DETAIL_STOREDPROCEDURE_H
+#define STOREDPROC_DETAIL_STOREDPROCEDURE_H
+
 #pragma once
 
 #include <memory>
@@ -45,3 +48,5 @@ namespace storedProc
 		};
 	}
 }
+
+#endif // STOREDPROC_DETAIL_STOREDPROCEDURE_H

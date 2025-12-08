@@ -1,5 +1,5 @@
-#ifndef EBENEZERBINDER_H
-#define EBENEZERBINDER_H
+#ifndef EBENEZER_BINDER_EBENEZERBINDER_H
+#define EBENEZER_BINDER_EBENEZERBINDER_H
 
 #pragma once
 
@@ -1801,4 +1801,4 @@ namespace ebenezer_binder
 	};
 }
 
-#endif // EBENEZERBINDER_H
+#endif // EBENEZER_BINDER_EBENEZERBINDER_H

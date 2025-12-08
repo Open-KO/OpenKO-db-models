@@ -1,5 +1,5 @@
-#ifndef EBENEZERMODEL_H
-#define EBENEZERMODEL_H
+#ifndef EBENEZER_MODEL_EBENEZERMODEL_H
+#define EBENEZER_MODEL_EBENEZERMODEL_H
 
 #pragma once
 
@@ -3553,4 +3553,4 @@ namespace ebenezer_model
 	};
 }
 
-#endif // EBENEZERMODEL_H
+#endif // EBENEZER_MODEL_EBENEZERMODEL_H

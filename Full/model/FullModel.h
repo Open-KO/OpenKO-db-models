@@ -1,5 +1,5 @@
-#ifndef FULLMODEL_H
-#define FULLMODEL_H
+#ifndef FULL_MODEL_FULLMODEL_H
+#define FULL_MODEL_FULLMODEL_H
 
 #pragma once
 
@@ -7940,4 +7940,4 @@ namespace full_model
 	};
 }
 
-#endif // FULLMODEL_H
+#endif // FULL_MODEL_FULLMODEL_H

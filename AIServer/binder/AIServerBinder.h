@@ -1,5 +1,5 @@
-#ifndef AISERVERBINDER_H
-#define AISERVERBINDER_H
+#ifndef AISERVER_BINDER_AISERVERBINDER_H
+#define AISERVER_BINDER_AISERVERBINDER_H
 
 #pragma once
 
@@ -1228,4 +1228,4 @@ namespace aiserver_binder
 	};
 }
 
-#endif // AISERVERBINDER_H
+#endif // AISERVER_BINDER_AISERVERBINDER_H

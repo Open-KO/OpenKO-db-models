@@ -1,5 +1,5 @@
-#ifndef AISERVERMODEL_H
-#define AISERVERMODEL_H
+#ifndef AISERVER_MODEL_AISERVERMODEL_H
+#define AISERVER_MODEL_AISERVERMODEL_H
 
 #pragma once
 
@@ -2341,4 +2341,4 @@ namespace aiserver_model
 	};
 }
 
-#endif // AISERVERMODEL_H
+#endif // AISERVER_MODEL_AISERVERMODEL_H
