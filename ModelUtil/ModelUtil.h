@@ -1,10 +1,10 @@
-#pragma once
+﻿#pragma once
 
 #include <cstdint>
 #include <string>
 
 /// \brief Collection of hand-written utilities and types
- namespace modelUtil
+namespace modelUtil
 {
     static const std::string DbAccountString = "ACCOUNT";
     static const std::string DbGameString = "GAME";
@@ -21,7 +21,7 @@
     };
 
     /// \brief Returns the string equivalent of a DbType
-    const std::string& DbTypeString(DbType db)
+    static const std::string& DbTypeString(DbType db)
     {
         switch (db)
         {
