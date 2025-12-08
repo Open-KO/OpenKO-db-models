@@ -5,7 +5,7 @@
 namespace aujard_binder
 {
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Battle::GetColumnBindings()
+	const Battle::BindingsMapType& Battle::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -35,7 +35,7 @@ namespace aujard_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CurrentUser::GetColumnBindings()
+	const CurrentUser::BindingsMapType& CurrentUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -79,7 +79,7 @@ namespace aujard_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Item::GetColumnBindings()
+	const Item::BindingsMapType& Item::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -102,7 +102,7 @@ namespace aujard_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Knights::GetColumnBindings()
+	const Knights::BindingsMapType& Knights::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -153,7 +153,7 @@ namespace aujard_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserData::GetColumnBindings()
+	const UserData::BindingsMapType& UserData::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -183,7 +183,7 @@ namespace aujard_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Warehouse::GetColumnBindings()
+	const Warehouse::BindingsMapType& Warehouse::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{

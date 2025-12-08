@@ -5,7 +5,7 @@
 namespace versionmanager_binder
 {
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Concurrent::GetColumnBindings()
+	const Concurrent::BindingsMapType& Concurrent::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -42,7 +42,7 @@ namespace versionmanager_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CurrentUser::GetColumnBindings()
+	const CurrentUser::BindingsMapType& CurrentUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -72,7 +72,7 @@ namespace versionmanager_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& TbUser::GetColumnBindings()
+	const TbUser::BindingsMapType& TbUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -102,7 +102,7 @@ namespace versionmanager_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Version::GetColumnBindings()
+	const Version::BindingsMapType& Version::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{

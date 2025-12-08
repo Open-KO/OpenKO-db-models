@@ -5,7 +5,7 @@
 namespace ebenezer_binder
 {
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Battle::GetColumnBindings()
+	const Battle::BindingsMapType& Battle::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -28,7 +28,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Coefficient::GetColumnBindings()
+	const Coefficient::BindingsMapType& Coefficient::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -142,7 +142,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CouponSerialList::GetColumnBindings()
+	const CouponSerialList::BindingsMapType& CouponSerialList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -179,7 +179,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Event::GetColumnBindings()
+	const Event::BindingsMapType& Event::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -244,7 +244,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& EventTrigger::GetColumnBindings()
+	const EventTrigger::BindingsMapType& EventTrigger::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -281,7 +281,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Home::GetColumnBindings()
+	const Home::BindingsMapType& Home::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -437,7 +437,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Item::GetColumnBindings()
+	const Item::BindingsMapType& Item::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -845,7 +845,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemExchange::GetColumnBindings()
+	const ItemExchange::BindingsMapType& ItemExchange::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1015,7 +1015,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemUpgrade::GetColumnBindings()
+	const ItemUpgrade::BindingsMapType& ItemUpgrade::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1136,7 +1136,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Knights::GetColumnBindings()
+	const Knights::BindingsMapType& Knights::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1313,7 +1313,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsAlliance::GetColumnBindings()
+	const KnightsAlliance::BindingsMapType& KnightsAlliance::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1350,7 +1350,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsCape::GetColumnBindings()
+	const KnightsCape::BindingsMapType& KnightsCape::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1387,7 +1387,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsRating::GetColumnBindings()
+	const KnightsRating::BindingsMapType& KnightsRating::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1424,7 +1424,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsSiegeWarfare::GetColumnBindings()
+	const KnightsSiegeWarfare::BindingsMapType& KnightsSiegeWarfare::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1699,7 +1699,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsUser::GetColumnBindings()
+	const KnightsUser::BindingsMapType& KnightsUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1722,7 +1722,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& LevelUp::GetColumnBindings()
+	const LevelUp::BindingsMapType& LevelUp::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1745,7 +1745,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Magic::GetColumnBindings()
+	const Magic::BindingsMapType& Magic::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1901,7 +1901,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType1::GetColumnBindings()
+	const MagicType1::BindingsMapType& MagicType1::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1980,7 +1980,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType2::GetColumnBindings()
+	const MagicType2::BindingsMapType& MagicType2::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2038,7 +2038,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType3::GetColumnBindings()
+	const MagicType3::BindingsMapType& MagicType3::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2110,7 +2110,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType4::GetColumnBindings()
+	const MagicType4::BindingsMapType& MagicType4::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2315,7 +2315,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType5::GetColumnBindings()
+	const MagicType5::BindingsMapType& MagicType5::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2352,7 +2352,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType6::GetColumnBindings()
+	const MagicType6::BindingsMapType& MagicType6::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2522,7 +2522,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType7::GetColumnBindings()
+	const MagicType7::BindingsMapType& MagicType7::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2615,7 +2615,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType8::GetColumnBindings()
+	const MagicType8::BindingsMapType& MagicType8::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2659,7 +2659,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType9::GetColumnBindings()
+	const MagicType9::BindingsMapType& MagicType9::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2752,7 +2752,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterChallenge::GetColumnBindings()
+	const MonsterChallenge::BindingsMapType& MonsterChallenge::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2803,7 +2803,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterChallengeSummonList::GetColumnBindings()
+	const MonsterChallengeSummonList::BindingsMapType& MonsterChallengeSummonList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2882,7 +2882,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& RentalItem::GetColumnBindings()
+	const RentalItem::BindingsMapType& RentalItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2982,7 +2982,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ServerResource::GetColumnBindings()
+	const ServerResource::BindingsMapType& ServerResource::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3005,7 +3005,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& StartPosition::GetColumnBindings()
+	const StartPosition::BindingsMapType& StartPosition::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3091,7 +3091,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserKnightsRank::GetColumnBindings()
+	const UserKnightsRank::BindingsMapType& UserKnightsRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3128,7 +3128,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserPersonalRank::GetColumnBindings()
+	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3165,7 +3165,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& WebpageAddress::GetColumnBindings()
+	const WebpageAddress::BindingsMapType& WebpageAddress::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3188,7 +3188,7 @@ namespace ebenezer_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ZoneInfo::GetColumnBindings()
+	const ZoneInfo::BindingsMapType& ZoneInfo::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{

@@ -5,7 +5,7 @@
 namespace full_binder
 {
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& AccountChar::GetColumnBindings()
+	const AccountChar::BindingsMapType& AccountChar::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -56,7 +56,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Battle::GetColumnBindings()
+	const Battle::BindingsMapType& Battle::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -191,7 +191,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Coefficient::GetColumnBindings()
+	const Coefficient::BindingsMapType& Coefficient::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -305,7 +305,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Concurrent::GetColumnBindings()
+	const Concurrent::BindingsMapType& Concurrent::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -349,7 +349,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CopySerialItem::GetColumnBindings()
+	const CopySerialItem::BindingsMapType& CopySerialItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -393,7 +393,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CopyTest::GetColumnBindings()
+	const CopyTest::BindingsMapType& CopyTest::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -409,7 +409,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CouponSerialList::GetColumnBindings()
+	const CouponSerialList::BindingsMapType& CouponSerialList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -446,7 +446,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& CurrentUser::GetColumnBindings()
+	const CurrentUser::BindingsMapType& CurrentUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -490,7 +490,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Event::GetColumnBindings()
+	const Event::BindingsMapType& Event::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -590,7 +590,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& EventTrigger::GetColumnBindings()
+	const EventTrigger::BindingsMapType& EventTrigger::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -627,7 +627,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& FriendList::GetColumnBindings()
+	const FriendList::BindingsMapType& FriendList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -811,7 +811,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& HacktoolUserLog::GetColumnBindings()
+	const HacktoolUserLog::BindingsMapType& HacktoolUserLog::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -850,7 +850,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& HeroUser::GetColumnBindings()
+	const HeroUser::BindingsMapType& HeroUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -894,7 +894,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Home::GetColumnBindings()
+	const Home::BindingsMapType& Home::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1050,7 +1050,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Item::GetColumnBindings()
+	const Item::BindingsMapType& Item::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1465,7 +1465,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemExchange::GetColumnBindings()
+	const ItemExchange::BindingsMapType& ItemExchange::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1649,7 +1649,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemGroup::GetColumnBindings()
+	const ItemGroup::BindingsMapType& ItemGroup::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1882,7 +1882,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemUpgrade::GetColumnBindings()
+	const ItemUpgrade::BindingsMapType& ItemUpgrade::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2017,7 +2017,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ItemUpProbability::GetColumnBindings()
+	const ItemUpProbability::BindingsMapType& ItemUpProbability::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2061,7 +2061,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Monster::GetColumnBindings()
+	const Monster::BindingsMapType& Monster::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2392,7 +2392,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterItem::GetColumnBindings()
+	const MonsterItem::BindingsMapType& MonsterItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2478,7 +2478,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Npc::GetColumnBindings()
+	const Npc::BindingsMapType& Npc::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2809,7 +2809,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& NpcItem::GetColumnBindings()
+	const NpcItem::BindingsMapType& NpcItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2895,7 +2895,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& NpcMoveItem::GetColumnBindings()
+	const NpcMoveItem::BindingsMapType& NpcMoveItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2960,7 +2960,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& NpcPos::GetColumnBindings()
+	const NpcPos::BindingsMapType& NpcPos::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3109,7 +3109,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KingBallotBox::GetColumnBindings()
+	const KingBallotBox::BindingsMapType& KingBallotBox::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3146,7 +3146,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KingCandidacyNoticeBoard::GetColumnBindings()
+	const KingCandidacyNoticeBoard::BindingsMapType& KingCandidacyNoticeBoard::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3183,7 +3183,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KingElectionList::GetColumnBindings()
+	const KingElectionList::BindingsMapType& KingElectionList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3227,7 +3227,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KingSystem::GetColumnBindings()
+	const KingSystem::BindingsMapType& KingSystem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3439,7 +3439,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Knights::GetColumnBindings()
+	const Knights::BindingsMapType& Knights::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3632,7 +3632,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsAlliance::GetColumnBindings()
+	const KnightsAlliance::BindingsMapType& KnightsAlliance::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3669,7 +3669,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsCape::GetColumnBindings()
+	const KnightsCape::BindingsMapType& KnightsCape::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3713,7 +3713,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsRating::GetColumnBindings()
+	const KnightsRating::BindingsMapType& KnightsRating::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -3750,7 +3750,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsSiegeWarfare::GetColumnBindings()
+	const KnightsSiegeWarfare::BindingsMapType& KnightsSiegeWarfare::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4025,7 +4025,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& KnightsUser::GetColumnBindings()
+	const KnightsUser::BindingsMapType& KnightsUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4048,7 +4048,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& LevelUp::GetColumnBindings()
+	const LevelUp::BindingsMapType& LevelUp::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4071,7 +4071,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Magic::GetColumnBindings()
+	const Magic::BindingsMapType& Magic::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4248,7 +4248,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType1::GetColumnBindings()
+	const MagicType1::BindingsMapType& MagicType1::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4341,7 +4341,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType2::GetColumnBindings()
+	const MagicType2::BindingsMapType& MagicType2::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4413,7 +4413,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType3::GetColumnBindings()
+	const MagicType3::BindingsMapType& MagicType3::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4499,7 +4499,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType4::GetColumnBindings()
+	const MagicType4::BindingsMapType& MagicType4::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4718,7 +4718,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType5::GetColumnBindings()
+	const MagicType5::BindingsMapType& MagicType5::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4769,7 +4769,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType6::GetColumnBindings()
+	const MagicType6::BindingsMapType& MagicType6::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -4953,7 +4953,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType7::GetColumnBindings()
+	const MagicType7::BindingsMapType& MagicType7::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5060,7 +5060,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType8::GetColumnBindings()
+	const MagicType8::BindingsMapType& MagicType8::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5118,7 +5118,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType9::GetColumnBindings()
+	const MagicType9::BindingsMapType& MagicType9::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5225,7 +5225,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeDefensive::GetColumnBindings()
+	const MakeDefensive::BindingsMapType& MakeDefensive::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5290,7 +5290,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItem::GetColumnBindings()
+	const MakeItem::BindingsMapType& MakeItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5327,7 +5327,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemGradeCode::GetColumnBindings()
+	const MakeItemGradeCode::BindingsMapType& MakeItemGradeCode::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5406,7 +5406,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemGroup::GetColumnBindings()
+	const MakeItemGroup::BindingsMapType& MakeItemGroup::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5632,7 +5632,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemRareCode::GetColumnBindings()
+	const MakeItemRareCode::BindingsMapType& MakeItemRareCode::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5676,7 +5676,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeWeapon::GetColumnBindings()
+	const MakeWeapon::BindingsMapType& MakeWeapon::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5776,7 +5776,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterChallenge::GetColumnBindings()
+	const MonsterChallenge::BindingsMapType& MonsterChallenge::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5827,7 +5827,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterChallengeSummonList::GetColumnBindings()
+	const MonsterChallengeSummonList::BindingsMapType& MonsterChallengeSummonList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5906,7 +5906,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterItemTest::GetColumnBindings()
+	const MonsterItemTest::BindingsMapType& MonsterItemTest::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -5992,7 +5992,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterSummonList::GetColumnBindings()
+	const MonsterSummonList::BindingsMapType& MonsterSummonList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6036,7 +6036,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ProgramListLog::GetColumnBindings()
+	const ProgramListLog::BindingsMapType& ProgramListLog::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6082,7 +6082,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& RentalItem::GetColumnBindings()
+	const RentalItem::BindingsMapType& RentalItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6204,7 +6204,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& RentalItemList::GetColumnBindings()
+	const RentalItemList::BindingsMapType& RentalItemList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6326,7 +6326,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ServerResource::GetColumnBindings()
+	const ServerResource::BindingsMapType& ServerResource::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6356,7 +6356,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& StartPosition::GetColumnBindings()
+	const StartPosition::BindingsMapType& StartPosition::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6442,7 +6442,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& TbUser::GetColumnBindings()
+	const TbUser::BindingsMapType& TbUser::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6495,7 +6495,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserEditor::GetColumnBindings()
+	const UserEditor::BindingsMapType& UserEditor::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6611,7 +6611,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserEditorItem::GetColumnBindings()
+	const UserEditorItem::BindingsMapType& UserEditorItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6696,7 +6696,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserKnightsRank::GetColumnBindings()
+	const UserKnightsRank::BindingsMapType& UserKnightsRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6768,7 +6768,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserPersonalRank::GetColumnBindings()
+	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6863,7 +6863,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserRentalItem::GetColumnBindings()
+	const UserRentalItem::BindingsMapType& UserRentalItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -6975,7 +6975,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserSavedMagic::GetColumnBindings()
+	const UserSavedMagic::BindingsMapType& UserSavedMagic::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7131,7 +7131,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserData::GetColumnBindings()
+	const UserData::BindingsMapType& UserData::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7428,7 +7428,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& UserDataSkillShortcut::GetColumnBindings()
+	const UserDataSkillShortcut::BindingsMapType& UserDataSkillShortcut::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7458,7 +7458,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Version::GetColumnBindings()
+	const Version::BindingsMapType& Version::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7495,7 +7495,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Warehouse::GetColumnBindings()
+	const Warehouse::BindingsMapType& Warehouse::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7539,7 +7539,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& WebItemMall::GetColumnBindings()
+	const WebItemMall::BindingsMapType& WebItemMall::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7620,7 +7620,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& WebItemMallLog::GetColumnBindings()
+	const WebItemMallLog::BindingsMapType& WebItemMallLog::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7701,7 +7701,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& WebpageAddress::GetColumnBindings()
+	const WebpageAddress::BindingsMapType& WebpageAddress::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -7724,7 +7724,7 @@ namespace full_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ZoneInfo::GetColumnBindings()
+	const ZoneInfo::BindingsMapType& ZoneInfo::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{

@@ -5,7 +5,7 @@
 namespace aiserver_binder
 {
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Monster::GetColumnBindings()
+	const Monster::BindingsMapType& Monster::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -336,7 +336,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterItem::GetColumnBindings()
+	const MonsterItem::BindingsMapType& MonsterItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -422,7 +422,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Npc::GetColumnBindings()
+	const Npc::BindingsMapType& Npc::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -753,7 +753,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& NpcMoveItem::GetColumnBindings()
+	const NpcMoveItem::BindingsMapType& NpcMoveItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -818,7 +818,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& NpcPos::GetColumnBindings()
+	const NpcPos::BindingsMapType& NpcPos::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -967,7 +967,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& LevelUp::GetColumnBindings()
+	const LevelUp::BindingsMapType& LevelUp::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -990,7 +990,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& Magic::GetColumnBindings()
+	const Magic::BindingsMapType& Magic::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1146,7 +1146,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType1::GetColumnBindings()
+	const MagicType1::BindingsMapType& MagicType1::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1225,7 +1225,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType2::GetColumnBindings()
+	const MagicType2::BindingsMapType& MagicType2::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1283,7 +1283,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType3::GetColumnBindings()
+	const MagicType3::BindingsMapType& MagicType3::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1355,7 +1355,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType4::GetColumnBindings()
+	const MagicType4::BindingsMapType& MagicType4::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1560,7 +1560,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MagicType7::GetColumnBindings()
+	const MagicType7::BindingsMapType& MagicType7::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1653,7 +1653,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeDefensive::GetColumnBindings()
+	const MakeDefensive::BindingsMapType& MakeDefensive::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1718,7 +1718,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItem::GetColumnBindings()
+	const MakeItem::BindingsMapType& MakeItem::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1748,7 +1748,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemGradeCode::GetColumnBindings()
+	const MakeItemGradeCode::BindingsMapType& MakeItemGradeCode::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -1827,7 +1827,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemGroup::GetColumnBindings()
+	const MakeItemGroup::BindingsMapType& MakeItemGroup::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2053,7 +2053,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeItemRareCode::GetColumnBindings()
+	const MakeItemRareCode::BindingsMapType& MakeItemRareCode::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2097,7 +2097,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MakeWeapon::GetColumnBindings()
+	const MakeWeapon::BindingsMapType& MakeWeapon::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2197,7 +2197,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& MonsterSummonList::GetColumnBindings()
+	const MonsterSummonList::BindingsMapType& MonsterSummonList::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
@@ -2241,7 +2241,7 @@ namespace aiserver_binder
 	}
 
 	/// \brief Returns the binding function associated with the column name
-	const BindingsMapType& ZoneInfo::GetColumnBindings()
+	const ZoneInfo::BindingsMapType& ZoneInfo::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
 		{
