@@ -3,9 +3,9 @@
 
 #pragma once
 
-#include "detail/StoredProcedure.h"
 #include <ModelUtil/ModelUtil.h>
 #include <cstdint>
+#include <detail/StoredProc/StoredProcedure.h>
 #include <memory>
 #include <nanodbc/nanodbc.h>
 #include <string>
