@@ -1,10 +1,10 @@
-#pragma once
+﻿#pragma once
 
-#include <time.h>
+#include <ctime>
 
 namespace nanodbc
 {
-    class timestamp;
+    struct timestamp;
 }
 
 /// \brief Collection of hand-written utilities and types
