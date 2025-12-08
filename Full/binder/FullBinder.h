@@ -8,6 +8,86 @@ namespace nanodbc
 	class result;
 }
 
+namespace full_model
+{
+	class AccountChar;
+	class Battle;
+	class Coefficient;
+	class Concurrent;
+	class CopySerialItem;
+	class CopyTest;
+	class CouponSerialList;
+	class CurrentUser;
+	class Event;
+	class EventTrigger;
+	class FriendList;
+	class HacktoolUserLog;
+	class HeroUser;
+	class Home;
+	class Item;
+	class ItemExchange;
+	class ItemGroup;
+	class ItemUpgrade;
+	class ItemUpProbability;
+	class Monster;
+	class MonsterItem;
+	class Npc;
+	class NpcItem;
+	class NpcMoveItem;
+	class NpcPos;
+	class KingBallotBox;
+	class KingCandidacyNoticeBoard;
+	class KingElectionList;
+	class KingSystem;
+	class Knights;
+	class KnightsAlliance;
+	class KnightsCape;
+	class KnightsRating;
+	class KnightsSiegeWarfare;
+	class KnightsUser;
+	class LevelUp;
+	class Magic;
+	class MagicType1;
+	class MagicType2;
+	class MagicType3;
+	class MagicType4;
+	class MagicType5;
+	class MagicType6;
+	class MagicType7;
+	class MagicType8;
+	class MagicType9;
+	class MakeDefensive;
+	class MakeItem;
+	class MakeItemGradeCode;
+	class MakeItemGroup;
+	class MakeItemRareCode;
+	class MakeWeapon;
+	class MonsterChallenge;
+	class MonsterChallengeSummonList;
+	class MonsterItemTest;
+	class MonsterSummonList;
+	class ProgramListLog;
+	class RentalItem;
+	class RentalItemList;
+	class ServerResource;
+	class StartPosition;
+	class TbUser;
+	class UserEditor;
+	class UserEditorItem;
+	class UserKnightsRank;
+	class UserPersonalRank;
+	class UserRentalItem;
+	class UserSavedMagic;
+	class UserData;
+	class UserDataSkillShortcut;
+	class Version;
+	class Warehouse;
+	class WebItemMall;
+	class WebItemMallLog;
+	class WebpageAddress;
+	class ZoneInfo;
+}
+
 namespace full_binder
 {
 	/// \brief generated nanodbc column binder for full_model::AccountChar

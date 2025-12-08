@@ -8,6 +8,30 @@ namespace nanodbc
 	class result;
 }
 
+namespace aiserver_model
+{
+	class Monster;
+	class MonsterItem;
+	class Npc;
+	class NpcMoveItem;
+	class NpcPos;
+	class LevelUp;
+	class Magic;
+	class MagicType1;
+	class MagicType2;
+	class MagicType3;
+	class MagicType4;
+	class MagicType7;
+	class MakeDefensive;
+	class MakeItem;
+	class MakeItemGradeCode;
+	class MakeItemGroup;
+	class MakeItemRareCode;
+	class MakeWeapon;
+	class MonsterSummonList;
+	class ZoneInfo;
+}
+
 namespace aiserver_binder
 {
 	/// \brief generated nanodbc column binder for aiserver_model::Monster

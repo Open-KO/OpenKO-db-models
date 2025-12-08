@@ -8,6 +8,45 @@ namespace nanodbc
 	class result;
 }
 
+namespace ebenezer_model
+{
+	class Battle;
+	class Coefficient;
+	class CouponSerialList;
+	class Event;
+	class EventTrigger;
+	class Home;
+	class Item;
+	class ItemExchange;
+	class ItemUpgrade;
+	class Knights;
+	class KnightsAlliance;
+	class KnightsCape;
+	class KnightsRating;
+	class KnightsSiegeWarfare;
+	class KnightsUser;
+	class LevelUp;
+	class Magic;
+	class MagicType1;
+	class MagicType2;
+	class MagicType3;
+	class MagicType4;
+	class MagicType5;
+	class MagicType6;
+	class MagicType7;
+	class MagicType8;
+	class MagicType9;
+	class MonsterChallenge;
+	class MonsterChallengeSummonList;
+	class RentalItem;
+	class ServerResource;
+	class StartPosition;
+	class UserKnightsRank;
+	class UserPersonalRank;
+	class WebpageAddress;
+	class ZoneInfo;
+}
+
 namespace ebenezer_binder
 {
 	/// \brief generated nanodbc column binder for ebenezer_model::Battle

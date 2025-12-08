@@ -1,4 +1,5 @@
 #include "EbenezerBinder.h"
+#include "../model/EbenezerModel.h"
 #include <nanodbc/nanodbc.h>
 
 namespace ebenezer_binder

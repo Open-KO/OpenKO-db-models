@@ -8,6 +8,16 @@ namespace nanodbc
 	class result;
 }
 
+namespace aujard_model
+{
+	class Battle;
+	class CurrentUser;
+	class Item;
+	class Knights;
+	class UserData;
+	class Warehouse;
+}
+
 namespace aujard_binder
 {
 	/// \brief generated nanodbc column binder for aujard_model::Battle

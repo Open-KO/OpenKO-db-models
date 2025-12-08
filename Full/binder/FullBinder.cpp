@@ -1,4 +1,5 @@
 #include "FullBinder.h"
+#include "../model/FullModel.h"
 #include <nanodbc/nanodbc.h>
 
 namespace full_binder

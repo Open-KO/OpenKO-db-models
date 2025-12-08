@@ -8,6 +8,14 @@ namespace nanodbc
 	class result;
 }
 
+namespace versionmanager_model
+{
+	class Concurrent;
+	class CurrentUser;
+	class TbUser;
+	class Version;
+}
+
 namespace versionmanager_binder
 {
 	/// \brief generated nanodbc column binder for versionmanager_model::Concurrent
