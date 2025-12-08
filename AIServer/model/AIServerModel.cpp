@@ -40,7 +40,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Monster::DbType()
+	modelUtil::DbType Monster::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -98,7 +98,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterItem::DbType()
+	modelUtil::DbType MonsterItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -156,7 +156,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Npc::DbType()
+	modelUtil::DbType Npc::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -214,7 +214,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NpcMoveItem::DbType()
+	modelUtil::DbType NpcMoveItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -272,7 +272,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NpcPos::DbType()
+	modelUtil::DbType NpcPos::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -324,7 +324,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LevelUp::DbType()
+	modelUtil::DbType LevelUp::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -382,7 +382,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Magic::DbType()
+	modelUtil::DbType Magic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -440,7 +440,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType1::DbType()
+	modelUtil::DbType MagicType1::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -498,7 +498,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType2::DbType()
+	modelUtil::DbType MagicType2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -556,7 +556,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType3::DbType()
+	modelUtil::DbType MagicType3::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -614,7 +614,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType4::DbType()
+	modelUtil::DbType MagicType4::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -672,7 +672,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType7::DbType()
+	modelUtil::DbType MagicType7::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -730,7 +730,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeDefensive::DbType()
+	modelUtil::DbType MakeDefensive::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -788,7 +788,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItem::DbType()
+	modelUtil::DbType MakeItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -846,7 +846,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemGradeCode::DbType()
+	modelUtil::DbType MakeItemGradeCode::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -904,7 +904,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemGroup::DbType()
+	modelUtil::DbType MakeItemGroup::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -962,7 +962,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemRareCode::DbType()
+	modelUtil::DbType MakeItemRareCode::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1020,7 +1020,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeWeapon::DbType()
+	modelUtil::DbType MakeWeapon::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1078,7 +1078,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterSummonList::DbType()
+	modelUtil::DbType MonsterSummonList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1136,7 +1136,7 @@ namespace aiserver_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ZoneInfo::DbType()
+	modelUtil::DbType ZoneInfo::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}

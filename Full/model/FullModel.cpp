@@ -40,7 +40,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType AccountChar::DbType()
+	modelUtil::DbType AccountChar::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -98,7 +98,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Battle::DbType()
+	modelUtil::DbType Battle::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -156,7 +156,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Coefficient::DbType()
+	modelUtil::DbType Coefficient::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -214,7 +214,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Concurrent::DbType()
+	modelUtil::DbType Concurrent::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -272,7 +272,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CopySerialItem::DbType()
+	modelUtil::DbType CopySerialItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -324,7 +324,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CopyTest::DbType()
+	modelUtil::DbType CopyTest::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -376,7 +376,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CouponSerialList::DbType()
+	modelUtil::DbType CouponSerialList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -434,7 +434,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CurrentUser::DbType()
+	modelUtil::DbType CurrentUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -492,7 +492,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Event::DbType()
+	modelUtil::DbType Event::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -544,7 +544,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType EventTrigger::DbType()
+	modelUtil::DbType EventTrigger::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -602,7 +602,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType FriendList::DbType()
+	modelUtil::DbType FriendList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -660,7 +660,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType HacktoolUserLog::DbType()
+	modelUtil::DbType HacktoolUserLog::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -712,7 +712,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType HeroUser::DbType()
+	modelUtil::DbType HeroUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -764,7 +764,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Home::DbType()
+	modelUtil::DbType Home::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -822,7 +822,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Item::DbType()
+	modelUtil::DbType Item::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -880,7 +880,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemExchange::DbType()
+	modelUtil::DbType ItemExchange::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -938,7 +938,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemGroup::DbType()
+	modelUtil::DbType ItemGroup::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -990,7 +990,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemUpgrade::DbType()
+	modelUtil::DbType ItemUpgrade::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1048,7 +1048,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemUpProbability::DbType()
+	modelUtil::DbType ItemUpProbability::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1106,7 +1106,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Monster::DbType()
+	modelUtil::DbType Monster::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1164,7 +1164,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterItem::DbType()
+	modelUtil::DbType MonsterItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1222,7 +1222,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Npc::DbType()
+	modelUtil::DbType Npc::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1280,7 +1280,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NpcItem::DbType()
+	modelUtil::DbType NpcItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1338,7 +1338,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NpcMoveItem::DbType()
+	modelUtil::DbType NpcMoveItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1396,7 +1396,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NpcPos::DbType()
+	modelUtil::DbType NpcPos::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1448,7 +1448,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingBallotBox::DbType()
+	modelUtil::DbType KingBallotBox::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1500,7 +1500,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingCandidacyNoticeBoard::DbType()
+	modelUtil::DbType KingCandidacyNoticeBoard::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1558,7 +1558,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingElectionList::DbType()
+	modelUtil::DbType KingElectionList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1610,7 +1610,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingSystem::DbType()
+	modelUtil::DbType KingSystem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1662,7 +1662,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Knights::DbType()
+	modelUtil::DbType Knights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1720,7 +1720,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsAlliance::DbType()
+	modelUtil::DbType KnightsAlliance::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1778,7 +1778,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsCape::DbType()
+	modelUtil::DbType KnightsCape::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1836,7 +1836,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsRating::DbType()
+	modelUtil::DbType KnightsRating::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1894,7 +1894,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsSiegeWarfare::DbType()
+	modelUtil::DbType KnightsSiegeWarfare::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1952,7 +1952,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsUser::DbType()
+	modelUtil::DbType KnightsUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2010,7 +2010,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LevelUp::DbType()
+	modelUtil::DbType LevelUp::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2068,7 +2068,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Magic::DbType()
+	modelUtil::DbType Magic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2126,7 +2126,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType1::DbType()
+	modelUtil::DbType MagicType1::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2184,7 +2184,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType2::DbType()
+	modelUtil::DbType MagicType2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2242,7 +2242,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType3::DbType()
+	modelUtil::DbType MagicType3::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2300,7 +2300,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType4::DbType()
+	modelUtil::DbType MagicType4::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2358,7 +2358,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType5::DbType()
+	modelUtil::DbType MagicType5::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2416,7 +2416,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType6::DbType()
+	modelUtil::DbType MagicType6::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2474,7 +2474,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType7::DbType()
+	modelUtil::DbType MagicType7::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2532,7 +2532,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType8::DbType()
+	modelUtil::DbType MagicType8::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2590,7 +2590,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType9::DbType()
+	modelUtil::DbType MagicType9::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2648,7 +2648,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeDefensive::DbType()
+	modelUtil::DbType MakeDefensive::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2706,7 +2706,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItem::DbType()
+	modelUtil::DbType MakeItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2764,7 +2764,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemGradeCode::DbType()
+	modelUtil::DbType MakeItemGradeCode::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2822,7 +2822,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemGroup::DbType()
+	modelUtil::DbType MakeItemGroup::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2880,7 +2880,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeItemRareCode::DbType()
+	modelUtil::DbType MakeItemRareCode::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2938,7 +2938,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MakeWeapon::DbType()
+	modelUtil::DbType MakeWeapon::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2996,7 +2996,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterChallenge::DbType()
+	modelUtil::DbType MonsterChallenge::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3054,7 +3054,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterChallengeSummonList::DbType()
+	modelUtil::DbType MonsterChallengeSummonList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3112,7 +3112,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterItemTest::DbType()
+	modelUtil::DbType MonsterItemTest::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3164,7 +3164,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterSummonList::DbType()
+	modelUtil::DbType MonsterSummonList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3222,7 +3222,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ProgramListLog::DbType()
+	modelUtil::DbType ProgramListLog::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3280,7 +3280,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItem::DbType()
+	modelUtil::DbType RentalItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3338,7 +3338,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemList::DbType()
+	modelUtil::DbType RentalItemList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3390,7 +3390,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ServerResource::DbType()
+	modelUtil::DbType ServerResource::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3448,7 +3448,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType StartPosition::DbType()
+	modelUtil::DbType StartPosition::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3506,7 +3506,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType TbUser::DbType()
+	modelUtil::DbType TbUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3564,7 +3564,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserEditor::DbType()
+	modelUtil::DbType UserEditor::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3616,7 +3616,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserEditorItem::DbType()
+	modelUtil::DbType UserEditorItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3668,7 +3668,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserKnightsRank::DbType()
+	modelUtil::DbType UserKnightsRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3726,7 +3726,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserPersonalRank::DbType()
+	modelUtil::DbType UserPersonalRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3784,7 +3784,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserRentalItem::DbType()
+	modelUtil::DbType UserRentalItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3836,7 +3836,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserSavedMagic::DbType()
+	modelUtil::DbType UserSavedMagic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3894,7 +3894,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserData::DbType()
+	modelUtil::DbType UserData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -3952,7 +3952,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserDataSkillShortcut::DbType()
+	modelUtil::DbType UserDataSkillShortcut::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4010,7 +4010,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Version::DbType()
+	modelUtil::DbType Version::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4068,7 +4068,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Warehouse::DbType()
+	modelUtil::DbType Warehouse::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4126,7 +4126,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType WebItemMall::DbType()
+	modelUtil::DbType WebItemMall::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4178,7 +4178,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType WebItemMallLog::DbType()
+	modelUtil::DbType WebItemMallLog::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4230,7 +4230,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType WebpageAddress::DbType()
+	modelUtil::DbType WebpageAddress::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -4288,7 +4288,7 @@ namespace full_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ZoneInfo::DbType()
+	modelUtil::DbType ZoneInfo::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}

@@ -21,7 +21,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType AccountLogin::DbType()
+	modelUtil::DbType AccountLogin::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -65,7 +65,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType AccountLogout::DbType()
+	modelUtil::DbType AccountLogout::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -111,7 +111,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ChangeCastleCommerce::DbType()
+	modelUtil::DbType ChangeCastleCommerce::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -155,7 +155,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ChangeCopySerialItem::DbType()
+	modelUtil::DbType ChangeCopySerialItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -186,7 +186,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ChangeCopySerialItemTable::DbType()
+	modelUtil::DbType ChangeCopySerialItemTable::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -217,7 +217,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ChangeKnightsCape::DbType()
+	modelUtil::DbType ChangeKnightsCape::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -254,7 +254,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CheckKnights::DbType()
+	modelUtil::DbType CheckKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -285,7 +285,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ClearRemainUsers::DbType()
+	modelUtil::DbType ClearRemainUsers::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -321,7 +321,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CreateKnights::DbType()
+	modelUtil::DbType CreateKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -369,7 +369,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CreateKnights2::DbType()
+	modelUtil::DbType CreateKnights2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -417,7 +417,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CreateNewChar::DbType()
+	modelUtil::DbType CreateNewChar::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -475,7 +475,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType DeleteFriendList::DbType()
+	modelUtil::DbType DeleteFriendList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -519,7 +519,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType DeleteKnights::DbType()
+	modelUtil::DbType DeleteKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -562,7 +562,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType EditerKnights::DbType()
+	modelUtil::DbType EditerKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -593,7 +593,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ExecKnightsUser::DbType()
+	modelUtil::DbType ExecKnightsUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -624,7 +624,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType GivePremium::DbType()
+	modelUtil::DbType GivePremium::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -662,7 +662,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType InsertFriendList::DbType()
+	modelUtil::DbType InsertFriendList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -706,7 +706,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType InsertHacktoolUser::DbType()
+	modelUtil::DbType InsertHacktoolUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -744,7 +744,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType InsertProgramCheckUser::DbType()
+	modelUtil::DbType InsertProgramCheckUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -782,7 +782,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingCandidacyNoticeBoardProc::DbType()
+	modelUtil::DbType KingCandidacyNoticeBoardProc::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -822,7 +822,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingCandidacyRecommend::DbType()
+	modelUtil::DbType KingCandidacyRecommend::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -868,7 +868,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingChangeTax::DbType()
+	modelUtil::DbType KingChangeTax::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -913,7 +913,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingElectionProc::DbType()
+	modelUtil::DbType KingElectionProc::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -960,7 +960,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingImpeachmentElection::DbType()
+	modelUtil::DbType KingImpeachmentElection::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1007,7 +1007,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingImpeachmentRequestElection::DbType()
+	modelUtil::DbType KingImpeachmentRequestElection::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1045,7 +1045,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingImpeachmentResult::DbType()
+	modelUtil::DbType KingImpeachmentResult::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1089,7 +1089,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingInsertPrizeEvent::DbType()
+	modelUtil::DbType KingInsertPrizeEvent::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1129,7 +1129,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingUpdateElectionList::DbType()
+	modelUtil::DbType KingUpdateElectionList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1171,7 +1171,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingUpdateElectionSchdule::DbType()
+	modelUtil::DbType KingUpdateElectionSchdule::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1215,7 +1215,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingUpdateElectionStatus::DbType()
+	modelUtil::DbType KingUpdateElectionStatus::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1252,7 +1252,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingUpdateImpeachmentStatus::DbType()
+	modelUtil::DbType KingUpdateImpeachmentStatus::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1297,7 +1297,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KingUpdateNoahOrExpEvent::DbType()
+	modelUtil::DbType KingUpdateNoahOrExpEvent::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1341,7 +1341,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsRatingUpdate::DbType()
+	modelUtil::DbType KnightsRatingUpdate::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1372,7 +1372,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadAccountCharid::DbType()
+	modelUtil::DbType LoadAccountCharid::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1415,7 +1415,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadCharInfo::DbType()
+	modelUtil::DbType LoadCharInfo::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1458,7 +1458,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadKnightsMembers::DbType()
+	modelUtil::DbType LoadKnightsMembers::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1494,7 +1494,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadPremiumServiceUser::DbType()
+	modelUtil::DbType LoadPremiumServiceUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1538,7 +1538,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadRentalData::DbType()
+	modelUtil::DbType LoadRentalData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1574,7 +1574,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadSavedMagic::DbType()
+	modelUtil::DbType LoadSavedMagic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1617,7 +1617,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadUserData::DbType()
+	modelUtil::DbType LoadUserData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1661,7 +1661,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LoadWebItemmall::DbType()
+	modelUtil::DbType LoadWebItemmall::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1697,7 +1697,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType NationSelect::DbType()
+	modelUtil::DbType NationSelect::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1741,7 +1741,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ProcInsertCurrentuser::DbType()
+	modelUtil::DbType ProcInsertCurrentuser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1789,7 +1789,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RankKnights::DbType()
+	modelUtil::DbType RankKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1820,7 +1820,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemCancel::DbType()
+	modelUtil::DbType RentalItemCancel::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1867,7 +1867,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemDestory::DbType()
+	modelUtil::DbType RentalItemDestory::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1915,7 +1915,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemDurabilityUpdate::DbType()
+	modelUtil::DbType RentalItemDurabilityUpdate::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1952,7 +1952,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemLend::DbType()
+	modelUtil::DbType RentalItemLend::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1999,7 +1999,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItemRegister::DbType()
+	modelUtil::DbType RentalItemRegister::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2055,7 +2055,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ResetLoyaltyMonthly::DbType()
+	modelUtil::DbType ResetLoyaltyMonthly::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2086,7 +2086,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType SkillshortcutLoad::DbType()
+	modelUtil::DbType SkillshortcutLoad::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2122,7 +2122,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType SkillshortcutSave::DbType()
+	modelUtil::DbType SkillshortcutSave::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2160,7 +2160,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateBattleHero::DbType()
+	modelUtil::DbType UpdateBattleHero::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2201,7 +2201,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateBattleResult::DbType()
+	modelUtil::DbType UpdateBattleResult::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2239,7 +2239,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateEditorItemData::DbType()
+	modelUtil::DbType UpdateEditorItemData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2285,7 +2285,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateKnights::DbType()
+	modelUtil::DbType UpdateKnights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2332,7 +2332,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateKnightsAlliance::DbType()
+	modelUtil::DbType UpdateKnightsAlliance::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2373,7 +2373,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateKnightsMark::DbType()
+	modelUtil::DbType UpdateKnightsMark::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2419,7 +2419,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateKnightsWar::DbType()
+	modelUtil::DbType UpdateKnightsWar::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2457,7 +2457,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdatePersonalRank::DbType()
+	modelUtil::DbType UpdatePersonalRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2488,7 +2488,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdatePremiumServiceUser::DbType()
+	modelUtil::DbType UpdatePremiumServiceUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2532,7 +2532,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateSavedMagic::DbType()
+	modelUtil::DbType UpdateSavedMagic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2594,7 +2594,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateSiege::DbType()
+	modelUtil::DbType UpdateSiege::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2638,7 +2638,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateSiegeChallenger::DbType()
+	modelUtil::DbType UpdateSiegeChallenger::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2675,7 +2675,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateSiegeChallenger2::DbType()
+	modelUtil::DbType UpdateSiegeChallenger2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2725,7 +2725,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateSiegeDecideChallenger::DbType()
+	modelUtil::DbType UpdateSiegeDecideChallenger::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2774,7 +2774,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateUserData::DbType()
+	modelUtil::DbType UpdateUserData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2859,7 +2859,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UpdateWarehouse::DbType()
+	modelUtil::DbType UpdateWarehouse::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2900,7 +2900,7 @@ namespace storedProc
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserKnightsRatingUpdate::DbType()
+	modelUtil::DbType UserKnightsRatingUpdate::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}

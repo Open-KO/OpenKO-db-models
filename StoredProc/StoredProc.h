@@ -24,7 +24,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -48,7 +48,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -73,7 +73,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -96,7 +96,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -116,7 +116,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -136,7 +136,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -157,7 +157,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -177,7 +177,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -198,7 +198,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -223,7 +223,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -248,7 +248,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -276,7 +276,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -300,7 +300,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -324,7 +324,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -344,7 +344,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -364,7 +364,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -385,7 +385,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -409,7 +409,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -430,7 +430,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -451,7 +451,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -473,7 +473,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -498,7 +498,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -521,7 +521,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -546,7 +546,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -571,7 +571,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -592,7 +592,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -616,7 +616,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -638,7 +638,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -660,7 +660,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -683,7 +683,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -704,7 +704,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -727,7 +727,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -750,7 +750,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -770,7 +770,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -794,7 +794,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -818,7 +818,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -839,7 +839,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -863,7 +863,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -884,7 +884,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -908,7 +908,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -932,7 +932,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -953,7 +953,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -977,7 +977,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1002,7 +1002,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1022,7 +1022,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1047,7 +1047,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1072,7 +1072,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1093,7 +1093,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1118,7 +1118,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1145,7 +1145,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1165,7 +1165,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1186,7 +1186,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1207,7 +1207,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1229,7 +1229,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1250,7 +1250,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1273,7 +1273,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1298,7 +1298,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1320,7 +1320,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1345,7 +1345,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1366,7 +1366,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1386,7 +1386,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1410,7 +1410,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1437,7 +1437,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1460,7 +1460,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1481,7 +1481,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1505,7 +1505,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1529,7 +1529,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1562,7 +1562,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error
@@ -1584,7 +1584,7 @@ namespace storedProc
 		static const std::string& Query();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Executes the stored procedure
 		/// \throws nanodbc::database_error

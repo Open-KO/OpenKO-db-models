@@ -40,7 +40,7 @@ namespace versionmanager_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Concurrent::DbType()
+	modelUtil::DbType Concurrent::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -98,7 +98,7 @@ namespace versionmanager_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CurrentUser::DbType()
+	modelUtil::DbType CurrentUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -156,7 +156,7 @@ namespace versionmanager_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType TbUser::DbType()
+	modelUtil::DbType TbUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -214,7 +214,7 @@ namespace versionmanager_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Version::DbType()
+	modelUtil::DbType Version::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}

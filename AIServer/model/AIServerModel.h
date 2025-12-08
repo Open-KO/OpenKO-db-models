@@ -300,7 +300,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -409,7 +409,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -686,7 +686,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -758,7 +758,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -890,7 +890,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -929,7 +929,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1066,7 +1066,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1158,7 +1158,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1234,7 +1234,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1328,7 +1328,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1522,7 +1522,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1623,7 +1623,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1695,7 +1695,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1742,7 +1742,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -1835,7 +1835,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -2033,7 +2033,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -2090,7 +2090,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -2198,7 +2198,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -2255,7 +2255,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();
@@ -2327,7 +2327,7 @@ namespace aiserver_model
 		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType();
+		static modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
 		static const std::vector<std::string>& PrimaryKey();

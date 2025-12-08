@@ -40,7 +40,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Battle::DbType()
+	modelUtil::DbType Battle::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -98,7 +98,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CurrentUser::DbType()
+	modelUtil::DbType CurrentUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -156,7 +156,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Item::DbType()
+	modelUtil::DbType Item::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -214,7 +214,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Knights::DbType()
+	modelUtil::DbType Knights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -272,7 +272,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserData::DbType()
+	modelUtil::DbType UserData::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -330,7 +330,7 @@ namespace aujard_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Warehouse::DbType()
+	modelUtil::DbType Warehouse::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}

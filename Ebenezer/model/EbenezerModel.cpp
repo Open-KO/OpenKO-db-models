@@ -40,7 +40,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Battle::DbType()
+	modelUtil::DbType Battle::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -98,7 +98,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Coefficient::DbType()
+	modelUtil::DbType Coefficient::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -156,7 +156,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType CouponSerialList::DbType()
+	modelUtil::DbType CouponSerialList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -214,7 +214,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Event::DbType()
+	modelUtil::DbType Event::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -266,7 +266,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType EventTrigger::DbType()
+	modelUtil::DbType EventTrigger::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -324,7 +324,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Home::DbType()
+	modelUtil::DbType Home::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -382,7 +382,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Item::DbType()
+	modelUtil::DbType Item::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -440,7 +440,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemExchange::DbType()
+	modelUtil::DbType ItemExchange::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -498,7 +498,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ItemUpgrade::DbType()
+	modelUtil::DbType ItemUpgrade::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -556,7 +556,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Knights::DbType()
+	modelUtil::DbType Knights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -614,7 +614,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsAlliance::DbType()
+	modelUtil::DbType KnightsAlliance::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -672,7 +672,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsCape::DbType()
+	modelUtil::DbType KnightsCape::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -730,7 +730,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsRating::DbType()
+	modelUtil::DbType KnightsRating::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -788,7 +788,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsSiegeWarfare::DbType()
+	modelUtil::DbType KnightsSiegeWarfare::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -846,7 +846,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType KnightsUser::DbType()
+	modelUtil::DbType KnightsUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -904,7 +904,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType LevelUp::DbType()
+	modelUtil::DbType LevelUp::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -962,7 +962,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType Magic::DbType()
+	modelUtil::DbType Magic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1020,7 +1020,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType1::DbType()
+	modelUtil::DbType MagicType1::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1078,7 +1078,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType2::DbType()
+	modelUtil::DbType MagicType2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1136,7 +1136,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType3::DbType()
+	modelUtil::DbType MagicType3::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1194,7 +1194,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType4::DbType()
+	modelUtil::DbType MagicType4::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1252,7 +1252,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType5::DbType()
+	modelUtil::DbType MagicType5::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1310,7 +1310,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType6::DbType()
+	modelUtil::DbType MagicType6::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1368,7 +1368,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType7::DbType()
+	modelUtil::DbType MagicType7::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1426,7 +1426,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType8::DbType()
+	modelUtil::DbType MagicType8::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1484,7 +1484,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MagicType9::DbType()
+	modelUtil::DbType MagicType9::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1542,7 +1542,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterChallenge::DbType()
+	modelUtil::DbType MonsterChallenge::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1600,7 +1600,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType MonsterChallengeSummonList::DbType()
+	modelUtil::DbType MonsterChallengeSummonList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1658,7 +1658,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType RentalItem::DbType()
+	modelUtil::DbType RentalItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1716,7 +1716,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ServerResource::DbType()
+	modelUtil::DbType ServerResource::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1774,7 +1774,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType StartPosition::DbType()
+	modelUtil::DbType StartPosition::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1832,7 +1832,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserKnightsRank::DbType()
+	modelUtil::DbType UserKnightsRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1890,7 +1890,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType UserPersonalRank::DbType()
+	modelUtil::DbType UserPersonalRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -1948,7 +1948,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType WebpageAddress::DbType()
+	modelUtil::DbType WebpageAddress::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
@@ -2006,7 +2006,7 @@ namespace ebenezer_model
 	}
 
 	/// \brief Returns the associated database type for the table
-	const modelUtil::DbType ZoneInfo::DbType()
+	modelUtil::DbType ZoneInfo::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
