@@ -1,3 +1,6 @@
+#ifndef AISERVERBINDER_H
+#define AISERVERBINDER_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -1224,3 +1227,5 @@ namespace aiserver_binder
 
 	};
 }
+
+#endif // AISERVERBINDER_H

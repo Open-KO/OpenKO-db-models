@@ -1,3 +1,6 @@
+#ifndef FULLMODEL_H
+#define FULLMODEL_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -7936,3 +7939,5 @@ namespace full_model
 
 	};
 }
+
+#endif // FULLMODEL_H

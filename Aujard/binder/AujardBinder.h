@@ -1,3 +1,6 @@
+#ifndef AUJARDBINDER_H
+#define AUJARDBINDER_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -177,3 +180,5 @@ namespace aujard_binder
 
 	};
 }
+
+#endif // AUJARDBINDER_H

@@ -1,3 +1,6 @@
+#ifndef STOREDPROC_H
+#define STOREDPROC_H
+
 #pragma once
 
 #include "detail/StoredProcedure.h"
@@ -1591,3 +1594,5 @@ namespace storedProc
 		std::weak_ptr<nanodbc::result> execute() noexcept(false);
 	};
 }
+
+#endif // STOREDPROC_H

@@ -1,3 +1,6 @@
+#ifndef AISERVERMODEL_H
+#define AISERVERMODEL_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -2337,3 +2340,5 @@ namespace aiserver_model
 
 	};
 }
+
+#endif // AISERVERMODEL_H

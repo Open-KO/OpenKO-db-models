@@ -1,3 +1,6 @@
+#ifndef VERSIONMANAGERBINDER_H
+#define VERSIONMANAGERBINDER_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -117,3 +120,5 @@ namespace versionmanager_binder
 
 	};
 }
+
+#endif // VERSIONMANAGERBINDER_H

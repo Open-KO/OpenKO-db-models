@@ -1,4 +1,7 @@
-﻿#pragma once
+﻿#ifndef BINDERUTIL_H
+#define BINDERUTIL_H
+
+#pragma once
 
 #include <ctime>
 
@@ -13,3 +16,5 @@ namespace binderUtil
     std::time_t CTimeFromDbTime(const nanodbc::timestamp& ts);
     nanodbc::timestamp DbTimeFromCTime(const std::time_t& timeIn);
 }
+
+#endif // BINDERUTIL_H

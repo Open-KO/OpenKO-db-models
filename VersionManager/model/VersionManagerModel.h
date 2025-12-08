@@ -1,3 +1,6 @@
+#ifndef VERSIONMANAGERMODEL_H
+#define VERSIONMANAGERMODEL_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -214,3 +217,5 @@ namespace versionmanager_model
 
 	};
 }
+
+#endif // VERSIONMANAGERMODEL_H

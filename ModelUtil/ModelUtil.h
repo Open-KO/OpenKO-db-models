@@ -1,4 +1,7 @@
-﻿#pragma once
+﻿#ifndef MODELUTIL_H
+#define MODELUTIL_H
+
+#pragma once
 
 #include <cstdint>
 #include <string>
@@ -18,3 +21,5 @@ namespace modelUtil
     /// \brief Returns the string equivalent of a DbType
     const std::string& DbTypeString(DbType db);
 }
+
+#endif // MODELUTIL_H

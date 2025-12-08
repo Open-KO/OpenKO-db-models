@@ -1,3 +1,6 @@
+#ifndef EBENEZERMODEL_H
+#define EBENEZERMODEL_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -3549,3 +3552,5 @@ namespace ebenezer_model
 
 	};
 }
+
+#endif // EBENEZERMODEL_H

@@ -1,3 +1,6 @@
+#ifndef EBENEZERBINDER_H
+#define EBENEZERBINDER_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -1797,3 +1800,5 @@ namespace ebenezer_binder
 
 	};
 }
+
+#endif // EBENEZERBINDER_H

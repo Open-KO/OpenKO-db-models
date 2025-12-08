@@ -1,3 +1,6 @@
+#ifndef AUJARDMODEL_H
+#define AUJARDMODEL_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -341,3 +344,5 @@ namespace aujard_model
 
 	};
 }
+
+#endif // AUJARDMODEL_H

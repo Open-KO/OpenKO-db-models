@@ -1,3 +1,6 @@
+#ifndef FULLBINDER_H
+#define FULLBINDER_H
+
 #pragma once
 
 #include <ModelUtil/ModelUtil.h>
@@ -4176,3 +4179,5 @@ namespace full_binder
 
 	};
 }
+
+#endif // FULLBINDER_H
