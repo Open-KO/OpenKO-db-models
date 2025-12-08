@@ -1,3 +1,4 @@
+#include "AujardModel.h"
 
 namespace aujard_model
 {
@@ -348,4 +349,5 @@ namespace aujard_model
 	const std::string& Warehouse::MapKey() const
 	{
 		return AccountId;
-	}}
+	}
+}

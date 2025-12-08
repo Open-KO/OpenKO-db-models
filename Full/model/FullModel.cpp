@@ -1,3 +1,4 @@
+#include "FullModel.h"
 
 namespace full_model
 {
@@ -4306,4 +4307,5 @@ namespace full_model
 	const int16_t& ZoneInfo::MapKey() const
 	{
 		return ZoneId;
-	}}
+	}
+}

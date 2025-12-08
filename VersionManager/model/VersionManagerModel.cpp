@@ -1,3 +1,4 @@
+#include "VersionManagerModel.h"
 
 namespace versionmanager_model
 {
@@ -232,4 +233,5 @@ namespace versionmanager_model
 	const int16_t& Version::MapKey() const
 	{
 		return Number;
-	}}
+	}
+}

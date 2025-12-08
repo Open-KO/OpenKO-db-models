@@ -1,3 +1,4 @@
+#include "AIServerModel.h"
 
 namespace aiserver_model
 {
@@ -1154,4 +1155,5 @@ namespace aiserver_model
 	const int16_t& ZoneInfo::MapKey() const
 	{
 		return ZoneId;
-	}}
+	}
+}

@@ -1,3 +1,4 @@
+#include "EbenezerModel.h"
 
 namespace ebenezer_model
 {
@@ -2024,4 +2025,5 @@ namespace ebenezer_model
 	const int16_t& ZoneInfo::MapKey() const
 	{
 		return ZoneId;
-	}}
+	}
+}
