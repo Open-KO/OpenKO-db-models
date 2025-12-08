@@ -1,5 +1,5 @@
 #include "AujardBinder.h"
-#include "../model/AujardModel.h"
+#include <Aujard/model/AujardModel.h>
 #include <nanodbc/nanodbc.h>
 
 namespace aujard_binder

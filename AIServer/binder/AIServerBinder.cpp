@@ -1,5 +1,5 @@
 #include "AIServerBinder.h"
-#include "../model/AIServerModel.h"
+#include <AIServer/model/AIServerModel.h>
 #include <nanodbc/nanodbc.h>
 
 namespace aiserver_binder

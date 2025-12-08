@@ -1,5 +1,6 @@
 #pragma once
 
+#include <ModelUtil/ModelUtil.h>
 #include <cstdint>
 #include <optional>
 #include <string>

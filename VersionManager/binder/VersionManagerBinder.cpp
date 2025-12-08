@@ -1,5 +1,5 @@
 #include "VersionManagerBinder.h"
-#include "../model/VersionManagerModel.h"
+#include <VersionManager/model/VersionManagerModel.h>
 #include <nanodbc/nanodbc.h>
 
 namespace versionmanager_binder
