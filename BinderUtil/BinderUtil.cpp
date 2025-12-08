@@ -1,12 +1,8 @@
-module;
-
-#include <ctime>
+#include "BinderUtil.h"
 #include <nanodbc/nanodbc.h>
 
-export module BinderUtil;
-
 /// \brief Collection of hand-written utilities and types
-export namespace binderUtil
+namespace binderUtil
 {
     std::time_t CTimeFromDbTime(const nanodbc::timestamp& ts)
     {
@@ -25,7 +21,11 @@ export namespace binderUtil
     {
         nanodbc::timestamp ts = nanodbc::timestamp();
         std::tm tm;
+#ifdef _MSC_VER
         gmtime_s(&tm, &timeIn);
+#else
+        gmtime_r(&timeIn, &tm);
+#endif
         ts.sec = tm.tm_sec;
         ts.min = tm.tm_min;
         ts.hour = tm.tm_hour;

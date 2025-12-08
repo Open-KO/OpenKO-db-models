@@ -1,19 +1,16 @@
-module;
+#pragma once
 
 #include <cstdint>
 #include <string>
 #include <unordered_set>
-
-export module VersionManagerModel;
-
-import ModelUtil;
+#include <vector>
 
 namespace versionmanager_binder
 {
-	export class Concurrent;
-	export class CurrentUser;
-	export class TbUser;
-	export class Version;
+	class Concurrent;
+	class CurrentUser;
+	class TbUser;
+	class Version;
 }
 
 namespace versionmanager_model
@@ -21,7 +18,7 @@ namespace versionmanager_model
 	/// \brief [CONCURRENT] Keeps track of concurrent user counts
 	/// \class Concurrent
 	/// \xrefitem db_GAME_VersionManager "GAME Database - VersionManager Library" "GAME Database - VersionManager Library" CONCURRENT Keeps track of concurrent user counts
-	export class Concurrent 
+	class Concurrent 
 	{
 	/// \publicsection
 	public:
@@ -48,70 +45,32 @@ namespace versionmanager_model
 		int16_t Zone3Count = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "CONCURRENT";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"serverid", "zone1_count", "zone2_count", "zone3_count"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"serverid", "zone1_count", "zone2_count", "zone3_count"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"serverid"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return ServerId;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [CURRENTUSER] Keeps track of users currently connected to the server
 	/// \class CurrentUser
 	/// \xrefitem db_GAME_VersionManager "GAME Database - VersionManager Library" "GAME Database - VersionManager Library" CURRENTUSER Keeps track of users currently connected to the server
-	export class CurrentUser 
+	class CurrentUser 
 	{
 	/// \publicsection
 	public:
@@ -133,70 +92,32 @@ namespace versionmanager_model
 		std::string AccountId;
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "CURRENTUSER";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"nServerNo", "strServerIP", "strAccountID"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"nServerNo", "strServerIP", "strAccountID"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"strAccountID"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const std::string& MapKey() const
-		{
-			return AccountId;
-		}
+		const std::string& MapKey() const;
 
 	};
 
 	/// \brief [TB_USER] User Account Information
 	/// \class TbUser
 	/// \xrefitem db_GAME_VersionManager "GAME Database - VersionManager Library" "GAME Database - VersionManager Library" TB_USER User Account Information
-	export class TbUser 
+	class TbUser 
 	{
 	/// \publicsection
 	public:
@@ -218,70 +139,32 @@ namespace versionmanager_model
 		uint8_t Authority = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "TB_USER";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"strAccountID", "strPasswd", "strAuthority"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"strAccountID", "strPasswd", "strAuthority"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"strAccountID"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const std::string& MapKey() const
-		{
-			return AccountId;
-		}
+		const std::string& MapKey() const;
 
 	};
 
 	/// \brief [VERSION] Version data and patch management
 	/// \class Version
 	/// \xrefitem db_GAME_VersionManager "GAME Database - VersionManager Library" "GAME Database - VersionManager Library" VERSION Version data and patch management
-	export class Version 
+	class Version 
 	{
 	/// \publicsection
 	public:
@@ -308,63 +191,25 @@ namespace versionmanager_model
 		int16_t HistoryVersion = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "VERSION";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sVersion", "strFileName", "strCompressName", "sHistoryVersion"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sVersion", "strFileName", "strCompressName", "sHistoryVersion"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sVersion"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return Number;
-		}
+		const int16_t& MapKey() const;
 
 	};
 }

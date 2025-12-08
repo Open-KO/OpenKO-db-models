@@ -1,36 +1,33 @@
-module;
+#pragma once
 
 #include <cstdint>
 #include <optional>
 #include <string>
 #include <unordered_set>
-
-export module AIServerModel;
-
-import ModelUtil;
+#include <vector>
 
 namespace aiserver_binder
 {
-	export class Monster;
-	export class MonsterItem;
-	export class Npc;
-	export class NpcMoveItem;
-	export class NpcPos;
-	export class LevelUp;
-	export class Magic;
-	export class MagicType1;
-	export class MagicType2;
-	export class MagicType3;
-	export class MagicType4;
-	export class MagicType7;
-	export class MakeDefensive;
-	export class MakeItem;
-	export class MakeItemGradeCode;
-	export class MakeItemGroup;
-	export class MakeItemRareCode;
-	export class MakeWeapon;
-	export class MonsterSummonList;
-	export class ZoneInfo;
+	class Monster;
+	class MonsterItem;
+	class Npc;
+	class NpcMoveItem;
+	class NpcPos;
+	class LevelUp;
+	class Magic;
+	class MagicType1;
+	class MagicType2;
+	class MagicType3;
+	class MagicType4;
+	class MagicType7;
+	class MakeDefensive;
+	class MakeItem;
+	class MakeItemGradeCode;
+	class MakeItemGroup;
+	class MakeItemRareCode;
+	class MakeWeapon;
+	class MonsterSummonList;
+	class ZoneInfo;
 }
 
 namespace aiserver_model
@@ -38,7 +35,7 @@ namespace aiserver_model
 	/// \brief [K_MONSTER] Monster definitions
 	/// \class Monster
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" K_MONSTER Monster definitions
-	export class Monster 
+	class Monster 
 	{
 	/// \publicsection
 	public:
@@ -290,70 +287,32 @@ namespace aiserver_model
 		uint8_t MoneyType = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "K_MONSTER";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2", "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle", "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint", "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay", "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3", "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR", "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange", "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2", "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle", "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint", "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay", "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3", "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR", "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange", "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sSid"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return MonsterId;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [K_MONSTER_ITEM] Monster loot table
 	/// \class MonsterItem
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" K_MONSTER_ITEM Monster loot table
-	export class MonsterItem 
+	class MonsterItem 
 	{
 	/// \publicsection
 	public:
@@ -437,70 +396,32 @@ namespace aiserver_model
 		};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "K_MONSTER_ITEM";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sIndex", "iItem01", "sPersent01", "iItem02", "sPersent02", "iItem03", "sPersent03", "iItem04", "sPersent04", "iItem05", "sPersent05"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sIndex", "iItem01", "sPersent01", "iItem02", "sPersent02", "iItem03", "sPersent03", "iItem04", "sPersent04", "iItem05", "sPersent05"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sIndex"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return MonsterId;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [K_NPC] Non-Player Character
 	/// \class Npc
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" K_NPC Non-Player Character
-	export class Npc 
+	class Npc 
 	{
 	/// \publicsection
 	public:
@@ -752,70 +673,32 @@ namespace aiserver_model
 		uint8_t MoneyType = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "K_NPC";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2", "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle", "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint", "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay", "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3", "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR", "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange", "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sSid", "strName", "sPid", "sSize", "iWeapon1", "iWeapon2", "byGroup", "byActType", "byType", "byFamily", "byRank", "byTitle", "iSellingGroup", "sLevel", "iExp", "iLoyalty", "iHpPoint", "sMpPoint", "sAtk", "sAc", "sHitRate", "sEvadeRate", "sDamage", "sAttackDelay", "bySpeed1", "bySpeed2", "sStandtime", "iMagic1", "iMagic2", "iMagic3", "sFireR", "sColdR", "sLightningR", "sMagicR", "sDiseaseR", "sPoisonR", "sLightR", "sBulk", "byAttackRange", "bySearchRange", "byTracingRange", "iMoney", "sItem", "byDirectAttack", "byMagicAttack", "byMoneyType"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sSid"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return NpcId;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [K_NPC_MOVE_ITEM] NPC Move Item: TODO
 	/// \class NpcMoveItem
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" K_NPC_MOVE_ITEM NPC Move Item: TODO
-	export class NpcMoveItem 
+	class NpcMoveItem 
 	{
 	/// \publicsection
 	public:
@@ -862,70 +745,32 @@ namespace aiserver_model
 		std::optional<int16_t> MoveMaxY;
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "K_NPC_MOVE_ITEM";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sCastleIndex", "byChangeItem", "sChangeSid", "byMoveItem", "sMoveMinX", "sMoveMinY", "sMoveMaxX", "sMoveMaxY"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sCastleIndex", "byChangeItem", "sChangeSid", "byMoveItem", "sMoveMinX", "sMoveMinY", "sMoveMaxX", "sMoveMaxY"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sCastleIndex"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return CastleIndex;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [K_NPCPOS] NPC Spawn Positions
 	/// \class NpcPos
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" K_NPCPOS NPC Spawn Positions
-	export class NpcPos 
+	class NpcPos 
 	{
 	/// \publicsection
 	public:
@@ -1032,64 +877,29 @@ namespace aiserver_model
 		std::optional<std::string> Path;
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "K_NPCPOS";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"ZoneID", "NpcID", "ActType", "RegenType", "DungeonFamily", "SpecialType", "TrapNumber", "LeftX", "TopZ", "RightX", "BottomZ", "LimitMinZ", "LimitMinX", "LimitMaxX", "LimitMaxZ", "NumNPC", "RegTime", "byDirection", "DotCnt", "path"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"ZoneID", "NpcID", "ActType", "RegenType", "DungeonFamily", "SpecialType", "TrapNumber", "LeftX", "TopZ", "RightX", "BottomZ", "LimitMinZ", "LimitMinX", "LimitMaxX", "LimitMaxZ", "NumNPC", "RegTime", "byDirection", "DotCnt", "path"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				"path"
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 	};
 
 	/// \brief [LEVEL_UP] Level experience requirements
 	/// \class LevelUp
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" LEVEL_UP Level experience requirements
-	export class LevelUp 
+	class LevelUp 
 	{
 	/// \publicsection
 	public:
@@ -1106,70 +916,32 @@ namespace aiserver_model
 		int32_t RequiredExp = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "LEVEL_UP";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"level", "Exp"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"level", "Exp"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"level"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return Level;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC] Contains the configuration for magic and abilities
 	/// \class Magic
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC Contains the configuration for magic and abilities
-	export class Magic 
+	class Magic 
 	{
 	/// \publicsection
 	public:
@@ -1281,70 +1053,32 @@ namespace aiserver_model
 		int32_t Event = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"MagicNum", "BeforeAction", "TargetAction", "SelfEffect", "FlyingEffect", "TargetEffect", "Moral", "SkillLevel", "Skill", "Msp", "HP", "ItemGroup", "UseItem", "CastTime", "ReCastTime", "SuccessRate", "Type1", "Type2", "Range", "Etc", "Event"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"MagicNum", "BeforeAction", "TargetAction", "SelfEffect", "FlyingEffect", "TargetEffect", "Moral", "SkillLevel", "Skill", "Msp", "HP", "ItemGroup", "UseItem", "CastTime", "ReCastTime", "SuccessRate", "Type1", "Type2", "Range", "Etc", "Event"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"MagicNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC_TYPE1] Supports melee abilities
 	/// \class MagicType1
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC_TYPE1 Supports melee abilities
-	export class MagicType1 
+	class MagicType1 
 	{
 	/// \publicsection
 	public:
@@ -1411,70 +1145,32 @@ namespace aiserver_model
 		int16_t Range = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC_TYPE1";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"iNum", "Type", "HitRate", "Hit", "AddDamage", "Delay", "ComboType", "ComboCount", "ComboDamage", "Range"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"iNum", "Type", "HitRate", "Hit", "AddDamage", "Delay", "ComboType", "ComboCount", "ComboDamage", "Range"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"iNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC_TYPE2] Supports bow abilities
 	/// \class MagicType2
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC_TYPE2 Supports bow abilities
-	export class MagicType2 
+	class MagicType2 
 	{
 	/// \publicsection
 	public:
@@ -1525,70 +1221,32 @@ namespace aiserver_model
 		int16_t AddDamagePlus = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC_TYPE2";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"iNum", "HitType", "HitRate", "AddDamage", "AddRange", "NeedArrow", "AddDamagePlus"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"iNum", "HitType", "HitRate", "AddDamage", "AddRange", "NeedArrow", "AddDamagePlus"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"iNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC_TYPE3] Supports Area of Effect and Damage over Time effects
 	/// \class MagicType3
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC_TYPE3 Supports Area of Effect and Damage over Time effects
-	export class MagicType3 
+	class MagicType3 
 	{
 	/// \publicsection
 	public:
@@ -1657,70 +1315,32 @@ namespace aiserver_model
 		uint8_t Attribute = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC_TYPE3";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"iNum", "Radius", "Angle", "DirectType", "FirstDamage", "EndDamage", "TimeDamage", "Duration", "Attribute"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"iNum", "Radius", "Angle", "DirectType", "FirstDamage", "EndDamage", "TimeDamage", "Duration", "Attribute"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"iNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC_TYPE4] Supports stat modification skills
 	/// \class MagicType4
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC_TYPE4 Supports stat modification skills
-	export class MagicType4 
+	class MagicType4 
 	{
 	/// \publicsection
 	public:
@@ -1889,70 +1509,32 @@ namespace aiserver_model
 		uint8_t ExpPercent = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC_TYPE4";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"iNum", "BuffType", "Radius", "Duration", "AttackSpeed", "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct", "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex", "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR", "PoisonR", "ExpPct"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"iNum", "BuffType", "Radius", "Duration", "AttackSpeed", "Speed", "AC", "ACPct", "Attack", "MagicAttack", "MaxHP", "MaxHpPct", "MaxMP", "MaxMpPct", "HitRate", "AvoidRate", "Str", "Sta", "Dex", "Intel", "Cha", "FireR", "ColdR", "LightningR", "MagicR", "DiseaseR", "PoisonR", "ExpPct"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"iNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAGIC_TYPE7] Supports targeting modifications
 	/// \class MagicType7
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAGIC_TYPE7 Supports targeting modifications
-	export class MagicType7 
+	class MagicType7 
 	{
 	/// \publicsection
 	public:
@@ -2028,70 +1610,32 @@ namespace aiserver_model
 		int32_t NeedItem = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAGIC_TYPE7";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"nIndex", "byValidGroup", "byNatoinChange", "shMonsterNum", "byTargetChange", "byStateChange", "byRadius", "shHitrate", "shDuration", "shDamage", "byVisoin", "nNeedItem"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"nIndex", "byValidGroup", "byNatoinChange", "shMonsterNum", "byTargetChange", "byStateChange", "byRadius", "shHitrate", "shDuration", "shDamage", "byVisoin", "nNeedItem"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"nIndex"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ID;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_DEFENSIVE] Make defensive
 	/// \class MakeDefensive
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_DEFENSIVE Make defensive
-	export class MakeDefensive 
+	class MakeDefensive 
 	{
 	/// \publicsection
 	public:
@@ -2138,70 +1682,32 @@ namespace aiserver_model
 		int16_t Class7 = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_DEFENSIVE";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4", "sClass_5", "sClass_6", "sClass_7"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4", "sClass_5", "sClass_6", "sClass_7"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"byLevel"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return Level;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_ITEM] Make item
 	/// \class MakeItem
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_ITEM Make item
-	export class MakeItem 
+	class MakeItem 
 	{
 	/// \publicsection
 	public:
@@ -2223,70 +1729,32 @@ namespace aiserver_model
 		uint8_t ItemLevel = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_ITEM";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sIndex", "iItemCode", "byItemLevel"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sIndex", "iItemCode", "byItemLevel"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sIndex"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return Index;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_ITEM_GRADECODE] Make item grade code
 	/// \class MakeItemGradeCode
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_ITEM_GRADECODE Make item grade code
-	export class MakeItemGradeCode 
+	class MakeItemGradeCode 
 	{
 	/// \publicsection
 	public:
@@ -2354,70 +1822,32 @@ namespace aiserver_model
 		};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_ITEM_GRADECODE";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"byItemIndex", "byGrade_1", "byGrade_2", "byGrade_3", "byGrade_4", "byGrade_5", "byGrade_6", "byGrade_7", "byGrade_8", "byGrade_9"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"byItemIndex", "byGrade_1", "byGrade_2", "byGrade_3", "byGrade_4", "byGrade_5", "byGrade_6", "byGrade_7", "byGrade_8", "byGrade_9"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"byItemIndex"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return ItemIndex;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_ITEM_GROUP] Make item group
 	/// \class MakeItemGroup
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_ITEM_GROUP Make item group
-	export class MakeItemGroup 
+	class MakeItemGroup 
 	{
 	/// \publicsection
 	public:
@@ -2590,70 +2020,32 @@ namespace aiserver_model
 		};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_ITEM_GROUP";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"iItemGroupNum", "iItem_1", "iItem_2", "iItem_3", "iItem_4", "iItem_5", "iItem_6", "iItem_7", "iItem_8", "iItem_9", "iItem_10", "iItem_11", "iItem_12", "iItem_13", "iItem_14", "iItem_15", "iItem_16", "iItem_17", "iItem_18", "iItem_19", "iItem_20", "iItem_21", "iItem_22", "iItem_23", "iItem_24", "iItem_25", "iItem_26", "iItem_27", "iItem_28", "iItem_29", "iItem_30"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"iItemGroupNum", "iItem_1", "iItem_2", "iItem_3", "iItem_4", "iItem_5", "iItem_6", "iItem_7", "iItem_8", "iItem_9", "iItem_10", "iItem_11", "iItem_12", "iItem_13", "iItem_14", "iItem_15", "iItem_16", "iItem_17", "iItem_18", "iItem_19", "iItem_20", "iItem_21", "iItem_22", "iItem_23", "iItem_24", "iItem_25", "iItem_26", "iItem_27", "iItem_28", "iItem_29", "iItem_30"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"iItemGroupNum"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int32_t& MapKey() const
-		{
-			return ItemGroupNumber;
-		}
+		const int32_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_ITEM_LARECODE] Make item rarity codes
 	/// \class MakeItemRareCode
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_ITEM_LARECODE Make item rarity codes
-	export class MakeItemRareCode 
+	class MakeItemRareCode 
 	{
 	/// \publicsection
 	public:
@@ -2685,70 +2077,32 @@ namespace aiserver_model
 		int16_t GeneralItem = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_ITEM_LARECODE";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"byLevelGrade", "sUpgradeItem", "sLareItem", "sMagicItem", "sGereralItem"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"byLevelGrade", "sUpgradeItem", "sLareItem", "sMagicItem", "sGereralItem"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"byLevelGrade"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return LevelGrade;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [MAKE_WEAPON] Make weapon
 	/// \class MakeWeapon
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MAKE_WEAPON Make weapon
-	export class MakeWeapon 
+	class MakeWeapon 
 	{
 	/// \publicsection
 	public:
@@ -2831,70 +2185,32 @@ namespace aiserver_model
 		};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MAKE_WEAPON";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4", "sClass_5", "sClass_6", "sClass_7", "sClass_8", "sClass_9", "sClass_10", "sClass_11", "sClass_12"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"byLevel", "sClass_1", "sClass_2", "sClass_3", "sClass_4", "sClass_5", "sClass_6", "sClass_7", "sClass_8", "sClass_9", "sClass_10", "sClass_11", "sClass_12"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"byLevel"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const uint8_t& MapKey() const
-		{
-			return Level;
-		}
+		const uint8_t& MapKey() const;
 
 	};
 
 	/// \brief [MONSTER_SUMMON_LIST] Monster summon list
 	/// \class MonsterSummonList
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" MONSTER_SUMMON_LIST Monster summon list
-	export class MonsterSummonList 
+	class MonsterSummonList 
 	{
 	/// \publicsection
 	public:
@@ -2926,70 +2242,32 @@ namespace aiserver_model
 		uint8_t Type = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "MONSTER_SUMMON_LIST";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"sSid", "strName", "sLevel", "sProbability", "bType"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"sSid", "strName", "sLevel", "sProbability", "bType"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"sSid"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return MonsterId;
-		}
+		const int16_t& MapKey() const;
 
 	};
 
 	/// \brief [ZONE_INFO] Zone (map) information
 	/// \class ZoneInfo
 	/// \xrefitem db_GAME_AIServer "GAME Database - AIServer Library" "GAME Database - AIServer Library" ZONE_INFO Zone (map) information
-	export class ZoneInfo 
+	class ZoneInfo 
 	{
 	/// \publicsection
 	public:
@@ -3036,63 +2314,25 @@ namespace aiserver_model
 		uint8_t RoomEvent = {};
 
 		/// \brief Returns the table name
-		static const std::string& TableName()
-		{
-			static const std::string tableName = "ZONE_INFO";
-			return tableName;
-		}
+		static const std::string& TableName();
 
 		/// \brief Returns a set of column names for the table
-		static const std::unordered_set<std::string>& ColumnNames()
-		{
-			static const std::unordered_set<std::string> columnNames =
-			{
-				"ServerNo", "ZoneNo", "strZoneName", "InitX", "InitZ", "InitY", "Type", "RoomEvent"
-			};
-			return columnNames;
-		}
+		static const std::unordered_set<std::string>& ColumnNames();
 
 		/// \brief Returns an ordered vector of column names for the table
-		static const std::vector<std::string>& OrderedColumnNames()
-		{
-			static const std::vector<std::string> orderedColumnNames =
-			{
-				"ServerNo", "ZoneNo", "strZoneName", "InitX", "InitZ", "InitY", "Type", "RoomEvent"
-			};
-			return orderedColumnNames;
-		}
+		static const std::vector<std::string>& OrderedColumnNames();
 
 		/// \brief Returns a set of blob column names for the table
-		static const std::unordered_set<std::string>& BlobColumns()
-		{
-			static const std::unordered_set<std::string> blobColumns =
-			{
-				
-			};
-			return blobColumns;
-		}
+		static const std::unordered_set<std::string>& BlobColumns();
 
 		/// \brief Returns the associated database type for the table
-		static const modelUtil::DbType DbType()
-		{
-			return modelUtil::DbType::GAME;
-		}
+		static const modelUtil::DbType DbType();
 
 		/// \brief Returns the columns associated with the table's Primary Key
-		static const std::vector<std::string>& PrimaryKey()
-		{
-			static const std::vector<std::string> primaryKey =
-			{
-				"ZoneNo"
-			};
-			return primaryKey;
-		}
+		static const std::vector<std::string>& PrimaryKey();
 
 		/// \brief Returns a value for use in map keys based on the table's primary key
-		const int16_t& MapKey() const
-		{
-			return ZoneId;
-		}
+		const int16_t& MapKey() const;
 
 	};
 }
