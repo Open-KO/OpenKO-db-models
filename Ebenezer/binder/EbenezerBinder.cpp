@@ -898,121 +898,121 @@ namespace ebenezer_binder
 	/// \brief Binds a result's column to OriginItemNumber1
 	void ItemExchange::BindOriginItemNumber1(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.OriginItemNumber1);
+		result.get_ref<int32_t>(colIndex, m.OriginItemNumber[0]);
 	}
 
 	/// \brief Binds a result's column to OriginItemCount1
 	void ItemExchange::BindOriginItemCount1(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.OriginItemCount1);
+		result.get_ref<int16_t>(colIndex, m.OriginItemCount[0]);
 	}
 
 	/// \brief Binds a result's column to OriginItemNumber2
 	void ItemExchange::BindOriginItemNumber2(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.OriginItemNumber2);
+		result.get_ref<int32_t>(colIndex, m.OriginItemNumber[1]);
 	}
 
 	/// \brief Binds a result's column to OriginItemCount2
 	void ItemExchange::BindOriginItemCount2(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.OriginItemCount2);
+		result.get_ref<int16_t>(colIndex, m.OriginItemCount[1]);
 	}
 
 	/// \brief Binds a result's column to OriginItemNumber3
 	void ItemExchange::BindOriginItemNumber3(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.OriginItemNumber3);
+		result.get_ref<int32_t>(colIndex, m.OriginItemNumber[2]);
 	}
 
 	/// \brief Binds a result's column to OriginItemCount3
 	void ItemExchange::BindOriginItemCount3(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.OriginItemCount3);
+		result.get_ref<int16_t>(colIndex, m.OriginItemCount[2]);
 	}
 
 	/// \brief Binds a result's column to OriginItemNumber4
 	void ItemExchange::BindOriginItemNumber4(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.OriginItemNumber4);
+		result.get_ref<int32_t>(colIndex, m.OriginItemNumber[3]);
 	}
 
 	/// \brief Binds a result's column to OriginItemCount4
 	void ItemExchange::BindOriginItemCount4(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.OriginItemCount4);
+		result.get_ref<int16_t>(colIndex, m.OriginItemCount[3]);
 	}
 
 	/// \brief Binds a result's column to OriginItemNumber5
 	void ItemExchange::BindOriginItemNumber5(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.OriginItemNumber5);
+		result.get_ref<int32_t>(colIndex, m.OriginItemNumber[4]);
 	}
 
 	/// \brief Binds a result's column to OriginItemCount5
 	void ItemExchange::BindOriginItemCount5(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.OriginItemCount5);
+		result.get_ref<int16_t>(colIndex, m.OriginItemCount[4]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemNumber1
 	void ItemExchange::BindExchangeItemNumber1(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber1);
+		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber[0]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemCount1
 	void ItemExchange::BindExchangeItemCount1(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount1);
+		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount[0]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemNumber2
 	void ItemExchange::BindExchangeItemNumber2(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber2);
+		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber[1]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemCount2
 	void ItemExchange::BindExchangeItemCount2(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount2);
+		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount[1]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemNumber3
 	void ItemExchange::BindExchangeItemNumber3(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber3);
+		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber[2]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemCount3
 	void ItemExchange::BindExchangeItemCount3(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount3);
+		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount[2]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemNumber4
 	void ItemExchange::BindExchangeItemNumber4(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber4);
+		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber[3]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemCount4
 	void ItemExchange::BindExchangeItemCount4(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount4);
+		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount[3]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemNumber5
 	void ItemExchange::BindExchangeItemNumber5(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber5);
+		result.get_ref<int32_t>(colIndex, m.ExchangeItemNumber[4]);
 	}
 
 	/// \brief Binds a result's column to ExchangeItemCount5
 	void ItemExchange::BindExchangeItemCount5(ebenezer_model::ItemExchange& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount5);
+		result.get_ref<int16_t>(colIndex, m.ExchangeItemCount[4]);
 	}
 
 	/// \brief Returns the binding function associated with the column name
@@ -1067,49 +1067,49 @@ namespace ebenezer_binder
 	/// \brief Binds a result's column to RequiredItem1
 	void ItemUpgrade::BindRequiredItem1(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem1);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[0]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem2
 	void ItemUpgrade::BindRequiredItem2(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem2);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[1]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem3
 	void ItemUpgrade::BindRequiredItem3(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem3);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[2]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem4
 	void ItemUpgrade::BindRequiredItem4(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem4);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[3]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem5
 	void ItemUpgrade::BindRequiredItem5(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem5);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[4]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem6
 	void ItemUpgrade::BindRequiredItem6(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem6);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[5]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem7
 	void ItemUpgrade::BindRequiredItem7(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem7);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[6]);
 	}
 
 	/// \brief Binds a result's column to RequiredItem8
 	void ItemUpgrade::BindRequiredItem8(ebenezer_model::ItemUpgrade& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.RequiredItem8);
+		result.get_ref<int32_t>(colIndex, m.RequiredItem[7]);
 	}
 
 	/// \brief Binds a result's column to RequiredCoins

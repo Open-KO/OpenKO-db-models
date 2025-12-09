@@ -995,149 +995,53 @@ namespace ebenezer_model
 		/// \property RandomFlag
 		uint8_t RandomFlag = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [nOriginItemNum1] to [nOriginItemNum5]
-			///
-			/// \property OriginItemNumber
-			int32_t OriginItemNumber[5] = {};
+		/// \brief Array grouping for columns [nOriginItemNum1] to [nOriginItemNum5]
+		///
+		/// Column [nOriginItemNum1]: Player item 1 needed for exchange
+		/// Column [nOriginItemNum2]: Player item 2 needed for exchange
+		/// Column [nOriginItemNum3]: Player item 3 needed for exchange
+		/// Column [nOriginItemNum4]: Player item 4 needed for exchange
+		/// Column [nOriginItemNum5]: Player item 5 needed for exchange
+		///
+		/// \property OriginItemNumber
+		int32_t OriginItemNumber[5] = {};
 
-			struct
-			{
-				/// \brief Column [nOriginItemNum1]: Player item 1 needed for exchange
-				///
-				/// \property OriginItemNumber1
-				int32_t OriginItemNumber1;
 
-				/// \brief Column [nOriginItemNum2]: Player item 2 needed for exchange
-				///
-				/// \property OriginItemNumber2
-				int32_t OriginItemNumber2;
+		/// \brief Array grouping for columns [nOriginItemCount1] to [nOriginItemCount5]
+		///
+		/// Column [nOriginItemCount1]: Number of item 1 needed for exchange
+		/// Column [nOriginItemCount2]: Number of item 2 needed for exchange
+		/// Column [nOriginItemCount3]: Number of item 3 needed for exchange
+		/// Column [nOriginItemCount4]: Number of item 4 needed for exchange
+		/// Column [nOriginItemCount5]: Number of item 5 needed for exchange
+		///
+		/// \property OriginItemCount
+		int16_t OriginItemCount[5] = {};
 
-				/// \brief Column [nOriginItemNum3]: Player item 3 needed for exchange
-				///
-				/// \property OriginItemNumber3
-				int32_t OriginItemNumber3;
 
-				/// \brief Column [nOriginItemNum4]: Player item 4 needed for exchange
-				///
-				/// \property OriginItemNumber4
-				int32_t OriginItemNumber4;
+		/// \brief Array grouping for columns [nExchangeItemNum1] to [nExchangeItemNum5]
+		///
+		/// Column [nExchangeItemNum1]: NPC item 1 given in exchange
+		/// Column [nExchangeItemNum2]: NPC item 2 given in exchange
+		/// Column [nExchangeItemNum3]: NPC item 3 given in exchange
+		/// Column [nExchangeItemNum4]: NPC item 4 given in exchange
+		/// Column [nExchangeItemNum5]: NPC item 5 given in exchange
+		///
+		/// \property ExchangeItemNumber
+		int32_t ExchangeItemNumber[5] = {};
 
-				/// \brief Column [nOriginItemNum5]: Player item 5 needed for exchange
-				///
-				/// \property OriginItemNumber5
-				int32_t OriginItemNumber5;
-			};
-		};
 
-		union
-		{
-			/// \brief Union array grouping for columns [nOriginItemCount1] to [nOriginItemCount5]
-			///
-			/// \property OriginItemCount
-			int16_t OriginItemCount[5] = {};
+		/// \brief Array grouping for columns [nExchangeItemCount1] to [nExchangeItemCount5]
+		///
+		/// Column [nExchangeItemCount1]: Number of item 1 given for exchange
+		/// Column [nExchangeItemCount2]: Number of item 2 given for exchange
+		/// Column [nExchangeItemCount3]: Number of item 3 given for exchange
+		/// Column [nExchangeItemCount4]: Number of item 4 given for exchange
+		/// Column [nExchangeItemCount5]: Number of item 5 given for exchange
+		///
+		/// \property ExchangeItemCount
+		int16_t ExchangeItemCount[5] = {};
 
-			struct
-			{
-				/// \brief Column [nOriginItemCount1]: Number of item 1 needed for exchange
-				///
-				/// \property OriginItemCount1
-				int16_t OriginItemCount1;
-
-				/// \brief Column [nOriginItemCount2]: Number of item 2 needed for exchange
-				///
-				/// \property OriginItemCount2
-				int16_t OriginItemCount2;
-
-				/// \brief Column [nOriginItemCount3]: Number of item 3 needed for exchange
-				///
-				/// \property OriginItemCount3
-				int16_t OriginItemCount3;
-
-				/// \brief Column [nOriginItemCount4]: Number of item 4 needed for exchange
-				///
-				/// \property OriginItemCount4
-				int16_t OriginItemCount4;
-
-				/// \brief Column [nOriginItemCount5]: Number of item 5 needed for exchange
-				///
-				/// \property OriginItemCount5
-				int16_t OriginItemCount5;
-			};
-		};
-
-		union
-		{
-			/// \brief Union array grouping for columns [nExchangeItemNum1] to [nExchangeItemNum5]
-			///
-			/// \property ExchangeItemNumber
-			int32_t ExchangeItemNumber[5] = {};
-
-			struct
-			{
-				/// \brief Column [nExchangeItemNum1]: NPC item 1 given in exchange
-				///
-				/// \property ExchangeItemNumber1
-				int32_t ExchangeItemNumber1;
-
-				/// \brief Column [nExchangeItemNum2]: NPC item 2 given in exchange
-				///
-				/// \property ExchangeItemNumber2
-				int32_t ExchangeItemNumber2;
-
-				/// \brief Column [nExchangeItemNum3]: NPC item 3 given in exchange
-				///
-				/// \property ExchangeItemNumber3
-				int32_t ExchangeItemNumber3;
-
-				/// \brief Column [nExchangeItemNum4]: NPC item 4 given in exchange
-				///
-				/// \property ExchangeItemNumber4
-				int32_t ExchangeItemNumber4;
-
-				/// \brief Column [nExchangeItemNum5]: NPC item 5 given in exchange
-				///
-				/// \property ExchangeItemNumber5
-				int32_t ExchangeItemNumber5;
-			};
-		};
-
-		union
-		{
-			/// \brief Union array grouping for columns [nExchangeItemCount1] to [nExchangeItemCount5]
-			///
-			/// \property ExchangeItemCount
-			int16_t ExchangeItemCount[5] = {};
-
-			struct
-			{
-				/// \brief Column [nExchangeItemCount1]: Number of item 1 given for exchange
-				///
-				/// \property ExchangeItemCount1
-				int16_t ExchangeItemCount1;
-
-				/// \brief Column [nExchangeItemCount2]: Number of item 2 given for exchange
-				///
-				/// \property ExchangeItemCount2
-				int16_t ExchangeItemCount2;
-
-				/// \brief Column [nExchangeItemCount3]: Number of item 3 given for exchange
-				///
-				/// \property ExchangeItemCount3
-				int16_t ExchangeItemCount3;
-
-				/// \brief Column [nExchangeItemCount4]: Number of item 4 given for exchange
-				///
-				/// \property ExchangeItemCount4
-				int16_t ExchangeItemCount4;
-
-				/// \brief Column [nExchangeItemCount5]: Number of item 5 given for exchange
-				///
-				/// \property ExchangeItemCount5
-				int16_t ExchangeItemCount5;
-			};
-		};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
@@ -1191,56 +1095,20 @@ namespace ebenezer_model
 		/// \property OriginItem
 		int16_t OriginItem = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [nReqItem1] to [nReqItem8]
-			///
-			/// \property RequiredItem
-			int32_t RequiredItem[8] = {};
+		/// \brief Array grouping for columns [nReqItem1] to [nReqItem8]
+		///
+		/// Column [nReqItem1]: Required item 1 identifier
+		/// Column [nReqItem2]: Required item 2 identifier
+		/// Column [nReqItem3]: Required item 3 identifier
+		/// Column [nReqItem4]: Required item 4 identifier
+		/// Column [nReqItem5]: Required item 5 identifier
+		/// Column [nReqItem6]: Required item 6 identifier
+		/// Column [nReqItem7]: Required item 7 identifier
+		/// Column [nReqItem8]: Required item 8 identifier
+		///
+		/// \property RequiredItem
+		int32_t RequiredItem[8] = {};
 
-			struct
-			{
-				/// \brief Column [nReqItem1]: Required item 1 identifier
-				///
-				/// \property RequiredItem1
-				int32_t RequiredItem1;
-
-				/// \brief Column [nReqItem2]: Required item 2 identifier
-				///
-				/// \property RequiredItem2
-				int32_t RequiredItem2;
-
-				/// \brief Column [nReqItem3]: Required item 3 identifier
-				///
-				/// \property RequiredItem3
-				int32_t RequiredItem3;
-
-				/// \brief Column [nReqItem4]: Required item 4 identifier
-				///
-				/// \property RequiredItem4
-				int32_t RequiredItem4;
-
-				/// \brief Column [nReqItem5]: Required item 5 identifier
-				///
-				/// \property RequiredItem5
-				int32_t RequiredItem5;
-
-				/// \brief Column [nReqItem6]: Required item 6 identifier
-				///
-				/// \property RequiredItem6
-				int32_t RequiredItem6;
-
-				/// \brief Column [nReqItem7]: Required item 7 identifier
-				///
-				/// \property RequiredItem7
-				int32_t RequiredItem7;
-
-				/// \brief Column [nReqItem8]: Required item 8 identifier
-				///
-				/// \property RequiredItem8
-				int32_t RequiredItem8;
-			};
-		};
 
 		/// \brief Column [nReqNoah]: Coins required to upgrade
 		///

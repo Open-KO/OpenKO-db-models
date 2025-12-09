@@ -365,61 +365,61 @@ namespace aiserver_binder
 	/// \brief Binds a result's column to ItemId1
 	void MonsterItem::BindItemId1(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ItemId1);
+		result.get_ref<int32_t>(colIndex, m.ItemId[0]);
 	}
 
 	/// \brief Binds a result's column to DropChance1
 	void MonsterItem::BindDropChance1(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.DropChance1);
+		result.get_ref<int16_t>(colIndex, m.DropChance[0]);
 	}
 
 	/// \brief Binds a result's column to ItemId2
 	void MonsterItem::BindItemId2(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ItemId2);
+		result.get_ref<int32_t>(colIndex, m.ItemId[1]);
 	}
 
 	/// \brief Binds a result's column to DropChance2
 	void MonsterItem::BindDropChance2(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.DropChance2);
+		result.get_ref<int16_t>(colIndex, m.DropChance[1]);
 	}
 
 	/// \brief Binds a result's column to ItemId3
 	void MonsterItem::BindItemId3(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ItemId3);
+		result.get_ref<int32_t>(colIndex, m.ItemId[2]);
 	}
 
 	/// \brief Binds a result's column to DropChance3
 	void MonsterItem::BindDropChance3(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.DropChance3);
+		result.get_ref<int16_t>(colIndex, m.DropChance[2]);
 	}
 
 	/// \brief Binds a result's column to ItemId4
 	void MonsterItem::BindItemId4(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ItemId4);
+		result.get_ref<int32_t>(colIndex, m.ItemId[3]);
 	}
 
 	/// \brief Binds a result's column to DropChance4
 	void MonsterItem::BindDropChance4(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.DropChance4);
+		result.get_ref<int16_t>(colIndex, m.DropChance[3]);
 	}
 
 	/// \brief Binds a result's column to ItemId5
 	void MonsterItem::BindItemId5(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.ItemId5);
+		result.get_ref<int32_t>(colIndex, m.ItemId[4]);
 	}
 
 	/// \brief Binds a result's column to DropChance5
 	void MonsterItem::BindDropChance5(aiserver_model::MonsterItem& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.DropChance5);
+		result.get_ref<int16_t>(colIndex, m.DropChance[4]);
 	}
 
 	/// \brief Returns the binding function associated with the column name
@@ -1776,55 +1776,55 @@ namespace aiserver_binder
 	/// \brief Binds a result's column to Grade1
 	void MakeItemGradeCode::BindGrade1(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade1);
+		result.get_ref<int16_t>(colIndex, m.Grade[0]);
 	}
 
 	/// \brief Binds a result's column to Grade2
 	void MakeItemGradeCode::BindGrade2(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade2);
+		result.get_ref<int16_t>(colIndex, m.Grade[1]);
 	}
 
 	/// \brief Binds a result's column to Grade3
 	void MakeItemGradeCode::BindGrade3(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade3);
+		result.get_ref<int16_t>(colIndex, m.Grade[2]);
 	}
 
 	/// \brief Binds a result's column to Grade4
 	void MakeItemGradeCode::BindGrade4(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade4);
+		result.get_ref<int16_t>(colIndex, m.Grade[3]);
 	}
 
 	/// \brief Binds a result's column to Grade5
 	void MakeItemGradeCode::BindGrade5(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade5);
+		result.get_ref<int16_t>(colIndex, m.Grade[4]);
 	}
 
 	/// \brief Binds a result's column to Grade6
 	void MakeItemGradeCode::BindGrade6(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade6);
+		result.get_ref<int16_t>(colIndex, m.Grade[5]);
 	}
 
 	/// \brief Binds a result's column to Grade7
 	void MakeItemGradeCode::BindGrade7(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade7);
+		result.get_ref<int16_t>(colIndex, m.Grade[6]);
 	}
 
 	/// \brief Binds a result's column to Grade8
 	void MakeItemGradeCode::BindGrade8(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade8);
+		result.get_ref<int16_t>(colIndex, m.Grade[7]);
 	}
 
 	/// \brief Binds a result's column to Grade9
 	void MakeItemGradeCode::BindGrade9(aiserver_model::MakeItemGradeCode& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Grade9);
+		result.get_ref<int16_t>(colIndex, m.Grade[8]);
 	}
 
 	/// \brief Returns the binding function associated with the column name
@@ -1876,181 +1876,181 @@ namespace aiserver_binder
 	/// \brief Binds a result's column to Item1
 	void MakeItemGroup::BindItem1(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item1);
+		result.get_ref<int32_t>(colIndex, m.Item[0]);
 	}
 
 	/// \brief Binds a result's column to Item2
 	void MakeItemGroup::BindItem2(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item2);
+		result.get_ref<int32_t>(colIndex, m.Item[1]);
 	}
 
 	/// \brief Binds a result's column to Item3
 	void MakeItemGroup::BindItem3(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item3);
+		result.get_ref<int32_t>(colIndex, m.Item[2]);
 	}
 
 	/// \brief Binds a result's column to Item4
 	void MakeItemGroup::BindItem4(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item4);
+		result.get_ref<int32_t>(colIndex, m.Item[3]);
 	}
 
 	/// \brief Binds a result's column to Item5
 	void MakeItemGroup::BindItem5(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item5);
+		result.get_ref<int32_t>(colIndex, m.Item[4]);
 	}
 
 	/// \brief Binds a result's column to Item6
 	void MakeItemGroup::BindItem6(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item6);
+		result.get_ref<int32_t>(colIndex, m.Item[5]);
 	}
 
 	/// \brief Binds a result's column to Item7
 	void MakeItemGroup::BindItem7(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item7);
+		result.get_ref<int32_t>(colIndex, m.Item[6]);
 	}
 
 	/// \brief Binds a result's column to Item8
 	void MakeItemGroup::BindItem8(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item8);
+		result.get_ref<int32_t>(colIndex, m.Item[7]);
 	}
 
 	/// \brief Binds a result's column to Item9
 	void MakeItemGroup::BindItem9(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item9);
+		result.get_ref<int32_t>(colIndex, m.Item[8]);
 	}
 
 	/// \brief Binds a result's column to Item10
 	void MakeItemGroup::BindItem10(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item10);
+		result.get_ref<int32_t>(colIndex, m.Item[9]);
 	}
 
 	/// \brief Binds a result's column to Item11
 	void MakeItemGroup::BindItem11(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item11);
+		result.get_ref<int32_t>(colIndex, m.Item[10]);
 	}
 
 	/// \brief Binds a result's column to Item12
 	void MakeItemGroup::BindItem12(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item12);
+		result.get_ref<int32_t>(colIndex, m.Item[11]);
 	}
 
 	/// \brief Binds a result's column to Item13
 	void MakeItemGroup::BindItem13(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item13);
+		result.get_ref<int32_t>(colIndex, m.Item[12]);
 	}
 
 	/// \brief Binds a result's column to Item14
 	void MakeItemGroup::BindItem14(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item14);
+		result.get_ref<int32_t>(colIndex, m.Item[13]);
 	}
 
 	/// \brief Binds a result's column to Item15
 	void MakeItemGroup::BindItem15(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item15);
+		result.get_ref<int32_t>(colIndex, m.Item[14]);
 	}
 
 	/// \brief Binds a result's column to Item16
 	void MakeItemGroup::BindItem16(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item16);
+		result.get_ref<int32_t>(colIndex, m.Item[15]);
 	}
 
 	/// \brief Binds a result's column to Item17
 	void MakeItemGroup::BindItem17(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item17);
+		result.get_ref<int32_t>(colIndex, m.Item[16]);
 	}
 
 	/// \brief Binds a result's column to Item18
 	void MakeItemGroup::BindItem18(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item18);
+		result.get_ref<int32_t>(colIndex, m.Item[17]);
 	}
 
 	/// \brief Binds a result's column to Item19
 	void MakeItemGroup::BindItem19(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item19);
+		result.get_ref<int32_t>(colIndex, m.Item[18]);
 	}
 
 	/// \brief Binds a result's column to Item20
 	void MakeItemGroup::BindItem20(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item20);
+		result.get_ref<int32_t>(colIndex, m.Item[19]);
 	}
 
 	/// \brief Binds a result's column to Item21
 	void MakeItemGroup::BindItem21(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item21);
+		result.get_ref<int32_t>(colIndex, m.Item[20]);
 	}
 
 	/// \brief Binds a result's column to Item22
 	void MakeItemGroup::BindItem22(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item22);
+		result.get_ref<int32_t>(colIndex, m.Item[21]);
 	}
 
 	/// \brief Binds a result's column to Item23
 	void MakeItemGroup::BindItem23(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item23);
+		result.get_ref<int32_t>(colIndex, m.Item[22]);
 	}
 
 	/// \brief Binds a result's column to Item24
 	void MakeItemGroup::BindItem24(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item24);
+		result.get_ref<int32_t>(colIndex, m.Item[23]);
 	}
 
 	/// \brief Binds a result's column to Item25
 	void MakeItemGroup::BindItem25(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item25);
+		result.get_ref<int32_t>(colIndex, m.Item[24]);
 	}
 
 	/// \brief Binds a result's column to Item26
 	void MakeItemGroup::BindItem26(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item26);
+		result.get_ref<int32_t>(colIndex, m.Item[25]);
 	}
 
 	/// \brief Binds a result's column to Item27
 	void MakeItemGroup::BindItem27(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item27);
+		result.get_ref<int32_t>(colIndex, m.Item[26]);
 	}
 
 	/// \brief Binds a result's column to Item28
 	void MakeItemGroup::BindItem28(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item28);
+		result.get_ref<int32_t>(colIndex, m.Item[27]);
 	}
 
 	/// \brief Binds a result's column to Item29
 	void MakeItemGroup::BindItem29(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item29);
+		result.get_ref<int32_t>(colIndex, m.Item[28]);
 	}
 
 	/// \brief Binds a result's column to Item30
 	void MakeItemGroup::BindItem30(aiserver_model::MakeItemGroup& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int32_t>(colIndex, m.Item30);
+		result.get_ref<int32_t>(colIndex, m.Item[29]);
 	}
 
 	/// \brief Returns the binding function associated with the column name
@@ -2128,73 +2128,73 @@ namespace aiserver_binder
 	/// \brief Binds a result's column to Class1
 	void MakeWeapon::BindClass1(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class1);
+		result.get_ref<int16_t>(colIndex, m.Class[0]);
 	}
 
 	/// \brief Binds a result's column to Class2
 	void MakeWeapon::BindClass2(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class2);
+		result.get_ref<int16_t>(colIndex, m.Class[1]);
 	}
 
 	/// \brief Binds a result's column to Class3
 	void MakeWeapon::BindClass3(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class3);
+		result.get_ref<int16_t>(colIndex, m.Class[2]);
 	}
 
 	/// \brief Binds a result's column to Class4
 	void MakeWeapon::BindClass4(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class4);
+		result.get_ref<int16_t>(colIndex, m.Class[3]);
 	}
 
 	/// \brief Binds a result's column to Class5
 	void MakeWeapon::BindClass5(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class5);
+		result.get_ref<int16_t>(colIndex, m.Class[4]);
 	}
 
 	/// \brief Binds a result's column to Class6
 	void MakeWeapon::BindClass6(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class6);
+		result.get_ref<int16_t>(colIndex, m.Class[5]);
 	}
 
 	/// \brief Binds a result's column to Class7
 	void MakeWeapon::BindClass7(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class7);
+		result.get_ref<int16_t>(colIndex, m.Class[6]);
 	}
 
 	/// \brief Binds a result's column to Class8
 	void MakeWeapon::BindClass8(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class8);
+		result.get_ref<int16_t>(colIndex, m.Class[7]);
 	}
 
 	/// \brief Binds a result's column to Class9
 	void MakeWeapon::BindClass9(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class9);
+		result.get_ref<int16_t>(colIndex, m.Class[8]);
 	}
 
 	/// \brief Binds a result's column to Class10
 	void MakeWeapon::BindClass10(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class10);
+		result.get_ref<int16_t>(colIndex, m.Class[9]);
 	}
 
 	/// \brief Binds a result's column to Class11
 	void MakeWeapon::BindClass11(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class11);
+		result.get_ref<int16_t>(colIndex, m.Class[10]);
 	}
 
 	/// \brief Binds a result's column to Class12
 	void MakeWeapon::BindClass12(aiserver_model::MakeWeapon& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<int16_t>(colIndex, m.Class12);
+		result.get_ref<int16_t>(colIndex, m.Class[11]);
 	}
 
 	/// \brief Returns the binding function associated with the column name

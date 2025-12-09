@@ -327,77 +327,29 @@ namespace aiserver_model
 		/// \property MonsterId
 		int16_t MonsterId = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [iItem01] to [iItem05]
-			///
-			/// \property ItemId
-			int32_t ItemId[5] = {};
+		/// \brief Array grouping for columns [iItem01] to [iItem05]
+		///
+		/// Column [iItem01]: Item identifier 1
+		/// Column [iItem02]: Item identifier 2
+		/// Column [iItem03]: Item identifier 3
+		/// Column [iItem04]: Item identifier 4
+		/// Column [iItem05]: Item identifier 5
+		///
+		/// \property ItemId
+		int32_t ItemId[5] = {};
 
-			struct
-			{
-				/// \brief Column [iItem01]: Item identifier 1
-				///
-				/// \property ItemId1
-				int32_t ItemId1;
 
-				/// \brief Column [iItem02]: Item identifier 2
-				///
-				/// \property ItemId2
-				int32_t ItemId2;
+		/// \brief Array grouping for columns [sPersent01] to [sPersent05]
+		///
+		/// Column [sPersent01]: Chance for item 1 to drop
+		/// Column [sPersent02]: Chance for item 2 to drop
+		/// Column [sPersent03]: Chance for item 3 to drop
+		/// Column [sPersent04]: Chance for item 4 to drop
+		/// Column [sPersent05]: Chance for item 5 to drop
+		///
+		/// \property DropChance
+		int16_t DropChance[5] = {};
 
-				/// \brief Column [iItem03]: Item identifier 3
-				///
-				/// \property ItemId3
-				int32_t ItemId3;
-
-				/// \brief Column [iItem04]: Item identifier 4
-				///
-				/// \property ItemId4
-				int32_t ItemId4;
-
-				/// \brief Column [iItem05]: Item identifier 5
-				///
-				/// \property ItemId5
-				int32_t ItemId5;
-			};
-		};
-
-		union
-		{
-			/// \brief Union array grouping for columns [sPersent01] to [sPersent05]
-			///
-			/// \property DropChance
-			int16_t DropChance[5] = {};
-
-			struct
-			{
-				/// \brief Column [sPersent01]: Chance for item 1 to drop
-				///
-				/// \property DropChance1
-				int16_t DropChance1;
-
-				/// \brief Column [sPersent02]: Chance for item 2 to drop
-				///
-				/// \property DropChance2
-				int16_t DropChance2;
-
-				/// \brief Column [sPersent03]: Chance for item 3 to drop
-				///
-				/// \property DropChance3
-				int16_t DropChance3;
-
-				/// \brief Column [sPersent04]: Chance for item 4 to drop
-				///
-				/// \property DropChance4
-				int16_t DropChance4;
-
-				/// \brief Column [sPersent05]: Chance for item 5 to drop
-				///
-				/// \property DropChance5
-				int16_t DropChance5;
-			};
-		};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
@@ -1769,61 +1721,21 @@ namespace aiserver_model
 		/// \property ItemIndex
 		uint8_t ItemIndex = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [byGrade_1] to [byGrade_9]
-			///
-			/// \property Grade
-			int16_t Grade[9] = {};
+		/// \brief Array grouping for columns [byGrade_1] to [byGrade_9]
+		///
+		/// Column [byGrade_1]: Grade 1
+		/// Column [byGrade_2]: Grade 2
+		/// Column [byGrade_3]: Grade 3
+		/// Column [byGrade_4]: Grade 4
+		/// Column [byGrade_5]: Grade 5
+		/// Column [byGrade_6]: Grade 6
+		/// Column [byGrade_7]: Grade 7
+		/// Column [byGrade_8]: Grade 8
+		/// Column [byGrade_9]: Grade 9
+		///
+		/// \property Grade
+		int16_t Grade[9] = {};
 
-			struct
-			{
-				/// \brief Column [byGrade_1]: Grade 1
-				///
-				/// \property Grade1
-				int16_t Grade1;
-
-				/// \brief Column [byGrade_2]: Grade 2
-				///
-				/// \property Grade2
-				int16_t Grade2;
-
-				/// \brief Column [byGrade_3]: Grade 3
-				///
-				/// \property Grade3
-				int16_t Grade3;
-
-				/// \brief Column [byGrade_4]: Grade 4
-				///
-				/// \property Grade4
-				int16_t Grade4;
-
-				/// \brief Column [byGrade_5]: Grade 5
-				///
-				/// \property Grade5
-				int16_t Grade5;
-
-				/// \brief Column [byGrade_6]: Grade 6
-				///
-				/// \property Grade6
-				int16_t Grade6;
-
-				/// \brief Column [byGrade_7]: Grade 7
-				///
-				/// \property Grade7
-				int16_t Grade7;
-
-				/// \brief Column [byGrade_8]: Grade 8
-				///
-				/// \property Grade8
-				int16_t Grade8;
-
-				/// \brief Column [byGrade_9]: Grade 9
-				///
-				/// \property Grade9
-				int16_t Grade9;
-			};
-		};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
@@ -1862,166 +1774,42 @@ namespace aiserver_model
 		/// \property ItemGroupNumber
 		int32_t ItemGroupNumber = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [iItem_1] to [iItem_30]
-			///
-			/// \property Item
-			int32_t Item[30] = {};
+		/// \brief Array grouping for columns [iItem_1] to [iItem_30]
+		///
+		/// Column [iItem_1]: Item 1
+		/// Column [iItem_2]: Item 2
+		/// Column [iItem_3]: Item 3
+		/// Column [iItem_4]: Item 4
+		/// Column [iItem_5]: Item 5
+		/// Column [iItem_6]: Item 6
+		/// Column [iItem_7]: Item 7
+		/// Column [iItem_8]: Item 8
+		/// Column [iItem_9]: Item 9
+		/// Column [iItem_10]: Item10
+		/// Column [iItem_11]: Item 11
+		/// Column [iItem_12]: Item 12
+		/// Column [iItem_13]: Item 13
+		/// Column [iItem_14]: Item 14
+		/// Column [iItem_15]: Item 15
+		/// Column [iItem_16]: Item 16
+		/// Column [iItem_17]: Item 17
+		/// Column [iItem_18]: Item 18
+		/// Column [iItem_19]: Item 19
+		/// Column [iItem_20]: Item 20
+		/// Column [iItem_21]: Item 21
+		/// Column [iItem_22]: Item 22
+		/// Column [iItem_23]: Item 23
+		/// Column [iItem_24]: Item 24
+		/// Column [iItem_25]: Item 25
+		/// Column [iItem_26]: Item 26
+		/// Column [iItem_27]: Item 27
+		/// Column [iItem_28]: Item 28
+		/// Column [iItem_29]: Item 29
+		/// Column [iItem_30]: Item 30
+		///
+		/// \property Item
+		int32_t Item[30] = {};
 
-			struct
-			{
-				/// \brief Column [iItem_1]: Item 1
-				///
-				/// \property Item1
-				int32_t Item1;
-
-				/// \brief Column [iItem_2]: Item 2
-				///
-				/// \property Item2
-				int32_t Item2;
-
-				/// \brief Column [iItem_3]: Item 3
-				///
-				/// \property Item3
-				int32_t Item3;
-
-				/// \brief Column [iItem_4]: Item 4
-				///
-				/// \property Item4
-				int32_t Item4;
-
-				/// \brief Column [iItem_5]: Item 5
-				///
-				/// \property Item5
-				int32_t Item5;
-
-				/// \brief Column [iItem_6]: Item 6
-				///
-				/// \property Item6
-				int32_t Item6;
-
-				/// \brief Column [iItem_7]: Item 7
-				///
-				/// \property Item7
-				int32_t Item7;
-
-				/// \brief Column [iItem_8]: Item 8
-				///
-				/// \property Item8
-				int32_t Item8;
-
-				/// \brief Column [iItem_9]: Item 9
-				///
-				/// \property Item9
-				int32_t Item9;
-
-				/// \brief Column [iItem_10]: Item10
-				///
-				/// \property Item10
-				int32_t Item10;
-
-				/// \brief Column [iItem_11]: Item 11
-				///
-				/// \property Item11
-				int32_t Item11;
-
-				/// \brief Column [iItem_12]: Item 12
-				///
-				/// \property Item12
-				int32_t Item12;
-
-				/// \brief Column [iItem_13]: Item 13
-				///
-				/// \property Item13
-				int32_t Item13;
-
-				/// \brief Column [iItem_14]: Item 14
-				///
-				/// \property Item14
-				int32_t Item14;
-
-				/// \brief Column [iItem_15]: Item 15
-				///
-				/// \property Item15
-				int32_t Item15;
-
-				/// \brief Column [iItem_16]: Item 16
-				///
-				/// \property Item16
-				int32_t Item16;
-
-				/// \brief Column [iItem_17]: Item 17
-				///
-				/// \property Item17
-				int32_t Item17;
-
-				/// \brief Column [iItem_18]: Item 18
-				///
-				/// \property Item18
-				int32_t Item18;
-
-				/// \brief Column [iItem_19]: Item 19
-				///
-				/// \property Item19
-				int32_t Item19;
-
-				/// \brief Column [iItem_20]: Item 20
-				///
-				/// \property Item20
-				int32_t Item20;
-
-				/// \brief Column [iItem_21]: Item 21
-				///
-				/// \property Item21
-				int32_t Item21;
-
-				/// \brief Column [iItem_22]: Item 22
-				///
-				/// \property Item22
-				int32_t Item22;
-
-				/// \brief Column [iItem_23]: Item 23
-				///
-				/// \property Item23
-				int32_t Item23;
-
-				/// \brief Column [iItem_24]: Item 24
-				///
-				/// \property Item24
-				int32_t Item24;
-
-				/// \brief Column [iItem_25]: Item 25
-				///
-				/// \property Item25
-				int32_t Item25;
-
-				/// \brief Column [iItem_26]: Item 26
-				///
-				/// \property Item26
-				int32_t Item26;
-
-				/// \brief Column [iItem_27]: Item 27
-				///
-				/// \property Item27
-				int32_t Item27;
-
-				/// \brief Column [iItem_28]: Item 28
-				///
-				/// \property Item28
-				int32_t Item28;
-
-				/// \brief Column [iItem_29]: Item 29
-				///
-				/// \property Item29
-				int32_t Item29;
-
-				/// \brief Column [iItem_30]: Item 30
-				///
-				/// \property Item30
-				int32_t Item30;
-			};
-		};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
@@ -2117,76 +1905,24 @@ namespace aiserver_model
 		/// \property Level
 		uint8_t Level = {};
 
-		union
-		{
-			/// \brief Union array grouping for columns [sClass_1] to [sClass_12]
-			///
-			/// \property Class
-			int16_t Class[12] = {};
+		/// \brief Array grouping for columns [sClass_1] to [sClass_12]
+		///
+		/// Column [sClass_1]: Class 1
+		/// Column [sClass_2]: Class 2
+		/// Column [sClass_3]: Class 3
+		/// Column [sClass_4]: Class 4
+		/// Column [sClass_5]: Class 5
+		/// Column [sClass_6]: Class 6
+		/// Column [sClass_7]: Class 7
+		/// Column [sClass_8]: Class 8
+		/// Column [sClass_9]: Class 9
+		/// Column [sClass_10]: Class 10
+		/// Column [sClass_11]: Class 11
+		/// Column [sClass_12]: Class 12
+		///
+		/// \property Class
+		int16_t Class[12] = {};
 
-			struct
-			{
-				/// \brief Column [sClass_1]: Class 1
-				///
-				/// \property Class1
-				int16_t Class1;
-
-				/// \brief Column [sClass_2]: Class 2
-				///
-				/// \property Class2
-				int16_t Class2;
-
-				/// \brief Column [sClass_3]: Class 3
-				///
-				/// \property Class3
-				int16_t Class3;
-
-				/// \brief Column [sClass_4]: Class 4
-				///
-				/// \property Class4
-				int16_t Class4;
-
-				/// \brief Column [sClass_5]: Class 5
-				///
-				/// \property Class5
-				int16_t Class5;
-
-				/// \brief Column [sClass_6]: Class 6
-				///
-				/// \property Class6
-				int16_t Class6;
-
-				/// \brief Column [sClass_7]: Class 7
-				///
-				/// \property Class7
-				int16_t Class7;
-
-				/// \brief Column [sClass_8]: Class 8
-				///
-				/// \property Class8
-				int16_t Class8;
-
-				/// \brief Column [sClass_9]: Class 9
-				///
-				/// \property Class9
-				int16_t Class9;
-
-				/// \brief Column [sClass_10]: Class 10
-				///
-				/// \property Class10
-				int16_t Class10;
-
-				/// \brief Column [sClass_11]: Class 11
-				///
-				/// \property Class11
-				int16_t Class11;
-
-				/// \brief Column [sClass_12]: Class 12
-				///
-				/// \property Class12
-				int16_t Class12;
-			};
-		};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
