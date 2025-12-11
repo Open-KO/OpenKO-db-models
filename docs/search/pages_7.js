@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['openko_20db_20modules_0',['OpenKO-db-modules',['../index.html',1,'']]]
+  ['openko_20db_20models_0',['OpenKO-db-models',['../index.html',1,'']]]
 ];

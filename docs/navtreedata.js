@@ -25,16 +25,13 @@
 var NAVTREE =
 [
   [ "OpenKO Database Model", "index.html", [
-    [ "OpenKO-db-modules", "index.html", "index" ],
+    [ "OpenKO-db-models", "index.html", "index" ],
     [ "GAME Database - AIServer Library", "db_GAME_AIServer.html", null ],
     [ "GAME Database - Aujard Library", "db_GAME_Aujard.html", null ],
     [ "GAME Database - Ebenezer Library", "db_GAME_Ebenezer.html", null ],
     [ "GAME Database - Full Library", "db_GAME_Full.html", null ],
     [ "GAME Database Stored Procedures", "dbproc_GAME.html", null ],
     [ "GAME Database - VersionManager Library", "db_GAME_VersionManager.html", null ],
-    [ "Modules", "modules.html", [
-      [ "Modules List", "modules.html", "modules_dup" ]
-    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -53,33 +50,26 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumerations", "functions_enum.html", null ]
       ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"classaiserver__model_1_1MagicType4.html#a66d880a161a419bbb98c4ea9fee76a1a",
-"classaiserver__model_1_1MonsterItem.html#a31a51fa10754d62c271220f895f136b9",
-"classaujard__model_1_1Item.html",
-"classebenezer__model_1_1Home.html#aeae0b8d6a3da0212ffea76d874bb4116",
-"classebenezer__model_1_1Item.html#a9fdbc49683bbbaf3ed9c4724eaf8ec3ba96b60453c2ae7f7cc04b9ecbe7a34b0f",
-"classebenezer__model_1_1KnightsSiegeWarfare.html#aa8728c590d45d0f00fc558bbc6b25718",
-"classebenezer__model_1_1MagicType4.html#af072301477237e884dc5ad578f859b9ea59baac9e19ed966c644a04cd9acaba22",
-"classebenezer__model_1_1RentalItem.html#af7db5aa9a49751bd146fbcc92f75f0d8",
-"classfull__model_1_1AccountChar.html#a5489a701e1fe8031c900e90ce605f0fc",
-"classfull__model_1_1HeroUser.html#a91e8c9746d8642e09df997d6d587fdf5",
-"classfull__model_1_1Item.html#ab8a64b9e8790197cdf7567b7c5ed23ac",
-"classfull__model_1_1KingBallotBox.html#ad250613dc904410e67fd7f5c0aaed644",
-"classfull__model_1_1KnightsSiegeWarfare.html#ad007a1383ec918e2522b8ee5d041a803",
-"classfull__model_1_1MagicType4.html#aa3e0ff5cce1e375551fc6010e670e146a6ac1a7dc525ac874fef15626633a9c9c",
-"classfull__model_1_1MakeItemGradeCode.html",
-"classfull__model_1_1Npc.html#a3472b51113cebeff6e87cd052f3881d1",
-"classfull__model_1_1RentalItemList.html#adcb37c2f1a027a564aacaead7901a0e3",
-"classfull__model_1_1UserEditorItem.html#a3dd4db0a3009023bfcd9fb3ca6d34ef5",
-"classstoredProc_1_1AccountLogout.html#a1dd7c1c6bb7b82a05f39a6d047c274d9",
-"classstoredProc_1_1StoredProcedure.html#a069320371583ff819e0cb16c7e753e8d"
+"AIServerBinder_8h_source.html",
+"classaiserver__model_1_1Monster.html#ae9c9e594e2cd9fa4b50a1de007f3391e",
+"classebenezer__model_1_1Home.html#a23037355ffc932cd79036d1d50aea49e",
+"classebenezer__model_1_1KnightsSiegeWarfare.html#a151b873003cacb1e02dc8185a4742d13",
+"classebenezer__model_1_1MonsterChallenge.html#ade810d4f0e0b329543ab127cbc42596a",
+"classfull__model_1_1FriendList.html#a4bb94cd9828588d12afbbd819d05ac23",
+"classfull__model_1_1ItemGroup.html#adb5c8974b766fd45299ed47691b0640e",
+"classfull__model_1_1MagicType3.html#ae80233f7ac00f91c64ef073bbfb06c52",
+"classfull__model_1_1MonsterChallengeSummonList.html#af54c7a2f78099bfbe025badb8b63e396",
+"classfull__model_1_1UserData.html#a96be9768d6477655fcc6aee76b909734",
+"classstoredProc_1_1LoadSavedMagic.html#ac7ce3a599252d664d35ee04298ce1422"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

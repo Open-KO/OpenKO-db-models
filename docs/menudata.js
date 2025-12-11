@@ -25,8 +25,6 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Related Pages",url:"pages.html"},
-{text:"Modules",url:"modules.html",children:[
-{text:"Modules List",url:"modules.html"}]},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
@@ -104,4 +102,6 @@ var menudata={children:[
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
 {text:"Enumerations",url:"functions_enum.html",children:[
-{text:"e",url:"functions_enum.html#index_e"}]}]}]}]}
+{text:"e",url:"functions_enum.html#index_e"}]}]}]},
+{text:"Files",url:"files.html",children:[
+{text:"File List",url:"files.html"}]}]}

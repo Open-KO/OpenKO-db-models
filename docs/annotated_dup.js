@@ -291,6 +291,9 @@ var annotated_dup =
       [ "ZoneInfo", "classfull__model_1_1ZoneInfo.html", "classfull__model_1_1ZoneInfo" ]
     ] ],
     [ "storedProc", null, [
+      [ "detail", null, [
+        [ "StoredProcedure", "classstoredProc_1_1detail_1_1StoredProcedure.html", "classstoredProc_1_1detail_1_1StoredProcedure" ]
+      ] ],
       [ "AccountLogin", "classstoredProc_1_1AccountLogin.html", "classstoredProc_1_1AccountLogin" ],
       [ "AccountLogout", "classstoredProc_1_1AccountLogout.html", "classstoredProc_1_1AccountLogout" ],
       [ "ChangeCastleCommerce", "classstoredProc_1_1ChangeCastleCommerce.html", "classstoredProc_1_1ChangeCastleCommerce" ],
@@ -343,7 +346,6 @@ var annotated_dup =
       [ "ResetLoyaltyMonthly", "classstoredProc_1_1ResetLoyaltyMonthly.html", "classstoredProc_1_1ResetLoyaltyMonthly" ],
       [ "SkillshortcutLoad", "classstoredProc_1_1SkillshortcutLoad.html", "classstoredProc_1_1SkillshortcutLoad" ],
       [ "SkillshortcutSave", "classstoredProc_1_1SkillshortcutSave.html", "classstoredProc_1_1SkillshortcutSave" ],
-      [ "StoredProcedure", "classstoredProc_1_1StoredProcedure.html", "classstoredProc_1_1StoredProcedure" ],
       [ "UpdateBattleHero", "classstoredProc_1_1UpdateBattleHero.html", "classstoredProc_1_1UpdateBattleHero" ],
       [ "UpdateBattleResult", "classstoredProc_1_1UpdateBattleResult.html", "classstoredProc_1_1UpdateBattleResult" ],
       [ "UpdateEditorItemData", "classstoredProc_1_1UpdateEditorItemData.html", "classstoredProc_1_1UpdateEditorItemData" ],

@@ -234,7 +234,7 @@ var hierarchy =
     [ "ebenezer_model::StartPosition", "classebenezer__model_1_1StartPosition.html", null ],
     [ "full_binder::StartPosition", "classfull__binder_1_1StartPosition.html", null ],
     [ "full_model::StartPosition", "classfull__model_1_1StartPosition.html", null ],
-    [ "storedProc::StoredProcedure", "classstoredProc_1_1StoredProcedure.html", [
+    [ "storedProc::detail::StoredProcedure", "classstoredProc_1_1detail_1_1StoredProcedure.html", [
       [ "storedProc::AccountLogin", "classstoredProc_1_1AccountLogin.html", null ],
       [ "storedProc::AccountLogout", "classstoredProc_1_1AccountLogout.html", null ],
       [ "storedProc::ChangeCastleCommerce", "classstoredProc_1_1ChangeCastleCommerce.html", null ],

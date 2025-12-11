@@ -6,5 +6,5 @@ var searchData=
   ['database_20full_20library_3',['GAME Database - Full Library',['../db_GAME_Full.html',1,'']]],
   ['database_20stored_20procedures_4',['GAME Database Stored Procedures',['../dbproc_GAME.html',1,'']]],
   ['database_20versionmanager_20library_5',['GAME Database - VersionManager Library',['../db_GAME_VersionManager.html',1,'']]],
-  ['db_20modules_6',['OpenKO-db-modules',['../index.html',1,'']]]
+  ['db_20models_6',['OpenKO-db-models',['../index.html',1,'']]]
 ];

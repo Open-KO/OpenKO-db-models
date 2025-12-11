@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['flush_0',['flush',['../classstoredProc_1_1StoredProcedure.html#a8381e9f5432e263fbae5aefdb94a5a82',1,'storedProc::StoredProcedure']]],
-  ['flush_5fon_5fdestruct_1',['flush_on_destruct',['../classstoredProc_1_1StoredProcedure.html#a069320371583ff819e0cb16c7e753e8d',1,'storedProc::StoredProcedure']]]
+  ['flush_0',['flush',['../classstoredProc_1_1detail_1_1StoredProcedure.html#adb88aaef95feed740e5463b837a6f5da',1,'storedProc::detail::StoredProcedure']]],
+  ['flush_5fon_5fdestruct_1',['flush_on_destruct',['../classstoredProc_1_1detail_1_1StoredProcedure.html#a75ad98e373757b192b0f347d75565b64',1,'storedProc::detail::StoredProcedure']]]
 ];

@@ -8,5 +8,6 @@ var classebenezer__model_1_1ItemUpgrade =
     [ "OriginItem", "classebenezer__model_1_1ItemUpgrade.html#aa5f08d58c808bc509c591f54e9c7dc14", null ],
     [ "OriginType", "classebenezer__model_1_1ItemUpgrade.html#acfce52945bc6d8a3ba45ba1a12211ec7", null ],
     [ "RateType", "classebenezer__model_1_1ItemUpgrade.html#aefcdb7a9e09ad5fe50534f5d1c25a8dd", null ],
-    [ "RequiredCoins", "classebenezer__model_1_1ItemUpgrade.html#a3e1fa0d3206c52271af0fe87dcb5e437", null ]
+    [ "RequiredCoins", "classebenezer__model_1_1ItemUpgrade.html#a3e1fa0d3206c52271af0fe87dcb5e437", null ],
+    [ "RequiredItem", "classebenezer__model_1_1ItemUpgrade.html#aa4c3a766b53fd1337a8183ffb6963a21", null ]
 ];
