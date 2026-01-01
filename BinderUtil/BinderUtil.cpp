@@ -1,7 +1,6 @@
 #include "BinderUtil.h"
 #include <nanodbc/nanodbc.h>
 
-/// \brief Collection of hand-written utilities and types
 namespace binderUtil
 {
     std::time_t CTimeFromDbTime(const nanodbc::timestamp& ts)

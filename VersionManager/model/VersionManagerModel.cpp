@@ -2,14 +2,12 @@
 
 namespace versionmanager_model
 {
-	/// \brief Returns the table name
 	const std::string& Concurrent::TableName()
 	{
 		static const std::string tableName = "CONCURRENT";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Concurrent::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -19,7 +17,6 @@ namespace versionmanager_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Concurrent::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -29,7 +26,6 @@ namespace versionmanager_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Concurrent::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -39,13 +35,11 @@ namespace versionmanager_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Concurrent::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Concurrent::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -55,19 +49,16 @@ namespace versionmanager_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const uint8_t& Concurrent::MapKey() const
 	{
 		return ServerId;
 	}
-	/// \brief Returns the table name
 	const std::string& CurrentUser::TableName()
 	{
 		static const std::string tableName = "CURRENTUSER";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& CurrentUser::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -77,7 +68,6 @@ namespace versionmanager_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& CurrentUser::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -87,7 +77,6 @@ namespace versionmanager_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& CurrentUser::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -97,13 +86,11 @@ namespace versionmanager_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType CurrentUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& CurrentUser::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -113,19 +100,16 @@ namespace versionmanager_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const std::string& CurrentUser::MapKey() const
 	{
 		return AccountId;
 	}
-	/// \brief Returns the table name
 	const std::string& TbUser::TableName()
 	{
 		static const std::string tableName = "TB_USER";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& TbUser::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -135,7 +119,6 @@ namespace versionmanager_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& TbUser::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -145,7 +128,6 @@ namespace versionmanager_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& TbUser::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -155,13 +137,11 @@ namespace versionmanager_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType TbUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& TbUser::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -171,19 +151,16 @@ namespace versionmanager_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const std::string& TbUser::MapKey() const
 	{
 		return AccountId;
 	}
-	/// \brief Returns the table name
 	const std::string& Version::TableName()
 	{
 		static const std::string tableName = "VERSION";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Version::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -193,7 +170,6 @@ namespace versionmanager_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Version::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -203,7 +179,6 @@ namespace versionmanager_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Version::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -213,13 +188,11 @@ namespace versionmanager_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Version::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Version::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -229,7 +202,6 @@ namespace versionmanager_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& Version::MapKey() const
 	{
 		return Number;

@@ -2,14 +2,12 @@
 
 namespace ebenezer_model
 {
-	/// \brief Returns the table name
 	const std::string& Battle::TableName()
 	{
 		static const std::string tableName = "BATTLE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Battle::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -19,7 +17,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Battle::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -29,7 +26,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Battle::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -39,13 +35,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Battle::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Battle::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -55,19 +49,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& Battle::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& Coefficient::TableName()
 	{
 		static const std::string tableName = "COEFFICIENT";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Coefficient::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -77,7 +68,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Coefficient::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -87,7 +77,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Coefficient::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -97,13 +86,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Coefficient::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Coefficient::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -113,19 +100,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& Coefficient::MapKey() const
 	{
 		return ClassId;
 	}
-	/// \brief Returns the table name
 	const std::string& CouponSerialList::TableName()
 	{
 		static const std::string tableName = "COUPON_SERIAL_LIST";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& CouponSerialList::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -135,7 +119,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& CouponSerialList::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -145,7 +128,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& CouponSerialList::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -155,13 +137,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType CouponSerialList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& CouponSerialList::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -171,19 +151,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& CouponSerialList::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& Event::TableName()
 	{
 		static const std::string tableName = "EVENT";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Event::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -193,7 +170,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Event::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -203,7 +179,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Event::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -213,13 +188,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Event::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Event::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -228,14 +201,12 @@ namespace ebenezer_model
 		};
 		return primaryKey;
 	}
-	/// \brief Returns the table name
 	const std::string& EventTrigger::TableName()
 	{
 		static const std::string tableName = "EVENT_TRIGGER";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& EventTrigger::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -245,7 +216,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& EventTrigger::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -255,7 +225,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& EventTrigger::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -265,13 +234,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType EventTrigger::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& EventTrigger::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -281,19 +248,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& EventTrigger::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& Home::TableName()
 	{
 		static const std::string tableName = "HOME";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Home::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -303,7 +267,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Home::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -313,7 +276,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Home::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -323,13 +285,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Home::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Home::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -339,19 +299,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const uint8_t& Home::MapKey() const
 	{
 		return Nation;
 	}
-	/// \brief Returns the table name
 	const std::string& Item::TableName()
 	{
 		static const std::string tableName = "ITEM";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Item::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -361,7 +318,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Item::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -371,7 +327,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Item::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -381,13 +336,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Item::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Item::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -397,19 +350,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& Item::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& ItemExchange::TableName()
 	{
 		static const std::string tableName = "ITEM_EXCHANGE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& ItemExchange::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -419,7 +369,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& ItemExchange::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -429,7 +378,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& ItemExchange::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -439,13 +387,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType ItemExchange::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& ItemExchange::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -455,19 +401,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& ItemExchange::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& ItemUpgrade::TableName()
 	{
 		static const std::string tableName = "ITEM_UPGRADE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& ItemUpgrade::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -477,7 +420,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& ItemUpgrade::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -487,7 +429,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& ItemUpgrade::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -497,13 +438,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType ItemUpgrade::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& ItemUpgrade::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -513,19 +452,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& ItemUpgrade::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& Knights::TableName()
 	{
 		static const std::string tableName = "KNIGHTS";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Knights::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -535,7 +471,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Knights::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -545,7 +480,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Knights::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -555,13 +489,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Knights::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Knights::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -571,19 +503,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& Knights::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& KnightsAlliance::TableName()
 	{
 		static const std::string tableName = "KNIGHTS_ALLIANCE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& KnightsAlliance::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -593,7 +522,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& KnightsAlliance::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -603,7 +531,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& KnightsAlliance::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -613,13 +540,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType KnightsAlliance::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& KnightsAlliance::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -629,19 +554,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& KnightsAlliance::MapKey() const
 	{
 		return MainAllianceKnights;
 	}
-	/// \brief Returns the table name
 	const std::string& KnightsCape::TableName()
 	{
 		static const std::string tableName = "KNIGHTS_CAPE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& KnightsCape::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -651,7 +573,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& KnightsCape::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -661,7 +582,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& KnightsCape::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -671,13 +591,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType KnightsCape::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& KnightsCape::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -687,19 +605,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& KnightsCape::MapKey() const
 	{
 		return CapeIndex;
 	}
-	/// \brief Returns the table name
 	const std::string& KnightsRating::TableName()
 	{
 		static const std::string tableName = "KNIGHTS_RATING";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& KnightsRating::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -709,7 +624,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& KnightsRating::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -719,7 +633,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& KnightsRating::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -729,13 +642,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType KnightsRating::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& KnightsRating::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -745,19 +656,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& KnightsRating::MapKey() const
 	{
 		return Rank;
 	}
-	/// \brief Returns the table name
 	const std::string& KnightsSiegeWarfare::TableName()
 	{
 		static const std::string tableName = "KNIGHTS_SIEGE_WARFARE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& KnightsSiegeWarfare::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -767,7 +675,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& KnightsSiegeWarfare::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -777,7 +684,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& KnightsSiegeWarfare::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -787,13 +693,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType KnightsSiegeWarfare::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& KnightsSiegeWarfare::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -803,19 +707,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& KnightsSiegeWarfare::MapKey() const
 	{
 		return CastleIndex;
 	}
-	/// \brief Returns the table name
 	const std::string& KnightsUser::TableName()
 	{
 		static const std::string tableName = "KNIGHTS_USER";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& KnightsUser::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -825,7 +726,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& KnightsUser::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -835,7 +735,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& KnightsUser::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -845,13 +744,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType KnightsUser::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& KnightsUser::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -861,19 +758,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	std::tuple<const int16_t&, const std::string&> KnightsUser::MapKey() const
 	{
 		return std::tuple<const int16_t&, const std::string&>{KnightsId, UserId};
 	}
-	/// \brief Returns the table name
 	const std::string& LevelUp::TableName()
 	{
 		static const std::string tableName = "LEVEL_UP";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& LevelUp::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -883,7 +777,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& LevelUp::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -893,7 +786,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& LevelUp::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -903,13 +795,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType LevelUp::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& LevelUp::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -919,19 +809,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const uint8_t& LevelUp::MapKey() const
 	{
 		return Level;
 	}
-	/// \brief Returns the table name
 	const std::string& Magic::TableName()
 	{
 		static const std::string tableName = "MAGIC";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& Magic::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -941,7 +828,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& Magic::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -951,7 +837,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& Magic::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -961,13 +846,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType Magic::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& Magic::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -977,19 +860,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& Magic::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType1::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE1";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType1::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -999,7 +879,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType1::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1009,7 +888,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType1::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1019,13 +897,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType1::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType1::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1035,19 +911,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType1::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType2::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE2";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType2::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1057,7 +930,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType2::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1067,7 +939,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType2::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1077,13 +948,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType2::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType2::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1093,19 +962,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType2::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType3::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE3";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType3::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1115,7 +981,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType3::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1125,7 +990,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType3::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1135,13 +999,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType3::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType3::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1151,19 +1013,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType3::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType4::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE4";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType4::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1173,7 +1032,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType4::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1183,7 +1041,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType4::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1193,13 +1050,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType4::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType4::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1209,19 +1064,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType4::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType5::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE5";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType5::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1231,7 +1083,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType5::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1241,7 +1092,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType5::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1251,13 +1101,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType5::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType5::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1267,19 +1115,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType5::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType6::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE6";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType6::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1289,7 +1134,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType6::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1299,7 +1143,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType6::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1309,13 +1152,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType6::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType6::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1325,19 +1166,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType6::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType7::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE7";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType7::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1347,7 +1185,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType7::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1357,7 +1194,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType7::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1367,13 +1203,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType7::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType7::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1383,19 +1217,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType7::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType8::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE8";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType8::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1405,7 +1236,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType8::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1415,7 +1245,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType8::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1425,13 +1254,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType8::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType8::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1441,19 +1268,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType8::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MagicType9::TableName()
 	{
 		static const std::string tableName = "MAGIC_TYPE9";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MagicType9::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1463,7 +1287,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MagicType9::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1473,7 +1296,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MagicType9::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1483,13 +1305,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MagicType9::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MagicType9::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1499,19 +1319,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& MagicType9::MapKey() const
 	{
 		return ID;
 	}
-	/// \brief Returns the table name
 	const std::string& MonsterChallenge::TableName()
 	{
 		static const std::string tableName = "MONSTER_CHALLENGE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MonsterChallenge::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1521,7 +1338,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MonsterChallenge::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1531,7 +1347,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MonsterChallenge::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1541,13 +1356,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MonsterChallenge::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MonsterChallenge::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1557,19 +1370,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& MonsterChallenge::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& MonsterChallengeSummonList::TableName()
 	{
 		static const std::string tableName = "MONSTER_CHALLENGE_SUMMON_LIST";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& MonsterChallengeSummonList::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1579,7 +1389,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& MonsterChallengeSummonList::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1589,7 +1398,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& MonsterChallengeSummonList::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1599,13 +1407,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType MonsterChallengeSummonList::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& MonsterChallengeSummonList::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1615,19 +1421,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& MonsterChallengeSummonList::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& RentalItem::TableName()
 	{
 		static const std::string tableName = "RENTAL_ITEM";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& RentalItem::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1637,7 +1440,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& RentalItem::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1647,7 +1449,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& RentalItem::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1657,13 +1458,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType RentalItem::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& RentalItem::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1673,19 +1472,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& RentalItem::MapKey() const
 	{
 		return RentalIndex;
 	}
-	/// \brief Returns the table name
 	const std::string& ServerResource::TableName()
 	{
 		static const std::string tableName = "SERVER_RESOURCE";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& ServerResource::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1695,7 +1491,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& ServerResource::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1705,7 +1500,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& ServerResource::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1715,13 +1509,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType ServerResource::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& ServerResource::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1731,19 +1523,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& ServerResource::MapKey() const
 	{
 		return ResourceId;
 	}
-	/// \brief Returns the table name
 	const std::string& StartPosition::TableName()
 	{
 		static const std::string tableName = "START_POSITION";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& StartPosition::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1753,7 +1542,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& StartPosition::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1763,7 +1551,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& StartPosition::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1773,13 +1560,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType StartPosition::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& StartPosition::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1789,19 +1574,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& StartPosition::MapKey() const
 	{
 		return ZoneId;
 	}
-	/// \brief Returns the table name
 	const std::string& UserKnightsRank::TableName()
 	{
 		static const std::string tableName = "USER_KNIGHTS_RANK";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& UserKnightsRank::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1811,7 +1593,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& UserKnightsRank::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1821,7 +1602,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& UserKnightsRank::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1831,13 +1611,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType UserKnightsRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& UserKnightsRank::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1847,19 +1625,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& UserKnightsRank::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& UserPersonalRank::TableName()
 	{
 		static const std::string tableName = "USER_PERSONAL_RANK";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& UserPersonalRank::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1869,7 +1644,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& UserPersonalRank::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1879,7 +1653,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& UserPersonalRank::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1889,13 +1662,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType UserPersonalRank::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& UserPersonalRank::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1905,19 +1676,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& UserPersonalRank::MapKey() const
 	{
 		return Rank;
 	}
-	/// \brief Returns the table name
 	const std::string& WebpageAddress::TableName()
 	{
 		static const std::string tableName = "WEBPAGE_ADDRESS";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& WebpageAddress::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1927,7 +1695,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& WebpageAddress::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1937,7 +1704,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& WebpageAddress::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -1947,13 +1713,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType WebpageAddress::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& WebpageAddress::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -1963,19 +1727,16 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int32_t& WebpageAddress::MapKey() const
 	{
 		return Index;
 	}
-	/// \brief Returns the table name
 	const std::string& ZoneInfo::TableName()
 	{
 		static const std::string tableName = "ZONE_INFO";
 		return tableName;
 	}
 
-	/// \brief Returns a set of column names for the table
 	const std::unordered_set<std::string>& ZoneInfo::ColumnNames()
 	{
 		static const std::unordered_set<std::string> columnNames =
@@ -1985,7 +1746,6 @@ namespace ebenezer_model
 		return columnNames;
 	}
 
-	/// \brief Returns an ordered vector of column names for the table
 	const std::vector<std::string>& ZoneInfo::OrderedColumnNames()
 	{
 		static const std::vector<std::string> orderedColumnNames =
@@ -1995,7 +1755,6 @@ namespace ebenezer_model
 		return orderedColumnNames;
 	}
 
-	/// \brief Returns a set of blob column names for the table
 	const std::unordered_set<std::string>& ZoneInfo::BlobColumns()
 	{
 		static const std::unordered_set<std::string> blobColumns =
@@ -2005,13 +1764,11 @@ namespace ebenezer_model
 		return blobColumns;
 	}
 
-	/// \brief Returns the associated database type for the table
 	modelUtil::DbType ZoneInfo::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	/// \brief Returns the columns associated with the table's Primary Key
 	const std::vector<std::string>& ZoneInfo::PrimaryKey()
 	{
 		static const std::vector<std::string> primaryKey =
@@ -2021,7 +1778,6 @@ namespace ebenezer_model
 		return primaryKey;
 	}
 
-	/// \brief Returns a value for use in map keys based on the table's primary key
 	const int16_t& ZoneInfo::MapKey() const
 	{
 		return ZoneId;

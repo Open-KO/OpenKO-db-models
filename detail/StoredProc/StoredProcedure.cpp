@@ -17,8 +17,6 @@ namespace storedProc
 			_conn = conn;
 		}
 
-		/// \brief Opens and prepares the statement with the associated query
-		/// \throws nanodbc::database_error
 		void StoredProcedure::prepare(const std::string& query) noexcept(false)
 		{
 			if (_stmt.open())
@@ -30,8 +28,6 @@ namespace storedProc
 			_stmt = nanodbc::statement(*_conn.get(), query);
 		}
 
-		/// \brief Flushes any output variables or return values on destruction
-		// This must be called in the destructor of a stored procedure with any output & return values.
 		void StoredProcedure::flush_on_destruct()
 		{
 			try
@@ -45,9 +41,6 @@ namespace storedProc
 			}
 		}
 
-		/// \brief Executes the currently prepared statement
-		/// \throws nanodbc::database_error
-		/// \returns a result set, if applicable
 		std::weak_ptr<nanodbc::result> StoredProcedure::execute() noexcept(false)
 		{
 			_flushed = false;
@@ -55,7 +48,6 @@ namespace storedProc
 			return _result;
 		}
 
-		/// \brief Sets the associated database connection.
 		void StoredProcedure::set_connection(const std::shared_ptr<nanodbc::connection>& conn)
 		{
 			_result.reset();
@@ -67,7 +59,6 @@ namespace storedProc
 			_flushed = false;
 		}
 
-		/// \brief Flushes any output variables or return values by reading any and all result sets
 		void StoredProcedure::flush()
 		{
 			if (_flushed

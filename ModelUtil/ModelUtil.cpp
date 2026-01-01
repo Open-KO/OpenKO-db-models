@@ -1,6 +1,5 @@
 #include "ModelUtil.h"
 
-/// \brief Collection of hand-written utilities and types
 namespace modelUtil
 {
     static const std::string DbAccountString = "ACCOUNT";
@@ -8,7 +7,6 @@ namespace modelUtil
     static const std::string DbLogString = "LOG";
     static const std::string DbInvalidString = "INVALID";
 
-    /// \brief Returns the string equivalent of a DbType
     const std::string& DbTypeString(DbType db)
     {
         switch (db)
