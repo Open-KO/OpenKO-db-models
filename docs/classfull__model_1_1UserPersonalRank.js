@@ -5,6 +5,7 @@ var classfull__model_1_1UserPersonalRank =
     [ "ElmoLoyaltyMonthly", "classfull__model_1_1UserPersonalRank.html#a01a0009e14cb7c25a8f2ebc31f5b8b14", null ],
     [ "ElmoUp", "classfull__model_1_1UserPersonalRank.html#a96a3fda712fc92e84ecdf5737e63ea2f", null ],
     [ "ElmoUserId", "classfull__model_1_1UserPersonalRank.html#a078a2485da251fbf9bd1828ce1499a94", null ],
+    [ "IsClaimed", "classfull__model_1_1UserPersonalRank.html#af4b87824439e1e12100795bd09d597ea", null ],
     [ "KarusCheck", "classfull__model_1_1UserPersonalRank.html#a053a7f85fbc1eff0462a71145bf76d9b", null ],
     [ "KarusLoyaltyMonthly", "classfull__model_1_1UserPersonalRank.html#a0d5d4b872372a38471ab2483926169d4", null ],
     [ "KarusUp", "classfull__model_1_1UserPersonalRank.html#a011b74a8c2583651aacbc469f353e478", null ],

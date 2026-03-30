@@ -64,12 +64,12 @@ var NAVTREEINDEX =
 "classebenezer__model_1_1Home.html#a23037355ffc932cd79036d1d50aea49e",
 "classebenezer__model_1_1KnightsSiegeWarfare.html#a151b873003cacb1e02dc8185a4742d13",
 "classebenezer__model_1_1MonsterChallenge.html#ade810d4f0e0b329543ab127cbc42596a",
-"classfull__model_1_1FriendList.html#a4bb94cd9828588d12afbbd819d05ac23",
-"classfull__model_1_1ItemGroup.html#adb5c8974b766fd45299ed47691b0640e",
-"classfull__model_1_1MagicType3.html#ae80233f7ac00f91c64ef073bbfb06c52",
-"classfull__model_1_1MonsterChallengeSummonList.html#af54c7a2f78099bfbe025badb8b63e396",
-"classfull__model_1_1UserData.html#a96be9768d6477655fcc6aee76b909734",
-"classstoredProc_1_1LoadSavedMagic.html#ac7ce3a599252d664d35ee04298ce1422"
+"classfull__model_1_1FriendList.html#a3fa5074338a96e255746538276c4e8b5",
+"classfull__model_1_1ItemGroup.html#ad3b13e973c3a9a8972172ecb163de970",
+"classfull__model_1_1MagicType3.html#ad3a0785a907d33a8762030733f4da288",
+"classfull__model_1_1MonsterChallengeSummonList.html#ab86f59e334303a9b729e62ae2e9aef2d",
+"classfull__model_1_1UserData.html#a812d383cf9e906125c1816a98cef8929",
+"classstoredProc_1_1LoadRentalData.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

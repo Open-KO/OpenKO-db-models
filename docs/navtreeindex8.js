@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"classfull__model_1_1MonsterChallengeSummonList.html#ab86f59e334303a9b729e62ae2e9aef2d":[8,0,7,48,3],
+"classfull__model_1_1MonsterChallengeSummonList.html#ac86775bbadd0dff4ef21991092a9ed19":[8,0,7,48,9],
 "classfull__model_1_1MonsterChallengeSummonList.html#af54c7a2f78099bfbe025badb8b63e396":[8,0,7,48,5],
 "classfull__model_1_1MonsterItem.html":[8,0,7,49],
 "classfull__model_1_1MonsterItem.html#a70e21295f1f3c90028994f8223fa35ac":[8,0,7,49,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "classfull__model_1_1UserData.html#a7969719ad105ec458a0810229be91e43ac9323e1064c69b1a1db3a31626689947":[8,0,7,62,1,5],
 "classfull__model_1_1UserData.html#a7969719ad105ec458a0810229be91e43ad2c8b0b763a81d2abf2b57bcc65b1534":[8,0,7,62,1,6],
 "classfull__model_1_1UserData.html#a7969719ad105ec458a0810229be91e43addd6da007747fd2791ee9f359cfd4a96":[8,0,7,62,1,3],
-"classfull__model_1_1UserData.html#a7ef4705ac9a06f12bf2ae5b8b0fa9d91":[8,0,7,62,2],
-"classfull__model_1_1UserData.html#a812d383cf9e906125c1816a98cef8929":[8,0,7,62,42],
-"classfull__model_1_1UserData.html#a8eefd4254c170273b9c5339435e38466":[8,0,7,62,40]
+"classfull__model_1_1UserData.html#a7ef4705ac9a06f12bf2ae5b8b0fa9d91":[8,0,7,62,2]
 };

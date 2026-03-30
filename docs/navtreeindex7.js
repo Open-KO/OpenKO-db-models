@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classfull__model_1_1MagicType3.html#ad3a0785a907d33a8762030733f4da288":[8,0,7,33,5],
+"classfull__model_1_1MagicType3.html#adbbfe309d339dfc0df05e547da7eb9c4":[8,0,7,33,8],
 "classfull__model_1_1MagicType3.html#ae80233f7ac00f91c64ef073bbfb06c52":[8,0,7,33,1],
 "classfull__model_1_1MagicType4.html":[8,0,7,34],
 "classfull__model_1_1MagicType4.html#a0f33142a4a2e3e165077841a317c58d5":[8,0,7,34,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classfull__model_1_1MonsterChallengeSummonList.html#a45d94e5a1b15301b828b1a0feab8a101":[8,0,7,48,2],
 "classfull__model_1_1MonsterChallengeSummonList.html#a9376c58b844c077bc26d3aff8175bbfc":[8,0,7,48,4],
 "classfull__model_1_1MonsterChallengeSummonList.html#aa50ddff4ab2549db9b808266f0d4d5c1":[8,0,7,48,6],
-"classfull__model_1_1MonsterChallengeSummonList.html#aaa3d2249fd0503e7e878c2695fc20419":[8,0,7,48,0],
-"classfull__model_1_1MonsterChallengeSummonList.html#ab86f59e334303a9b729e62ae2e9aef2d":[8,0,7,48,3],
-"classfull__model_1_1MonsterChallengeSummonList.html#ac86775bbadd0dff4ef21991092a9ed19":[8,0,7,48,9]
+"classfull__model_1_1MonsterChallengeSummonList.html#aaa3d2249fd0503e7e878c2695fc20419":[8,0,7,48,0]
 };
