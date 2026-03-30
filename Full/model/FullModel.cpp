@@ -3206,7 +3206,7 @@ namespace full_model
 	{
 		static const std::unordered_set<std::string> columnNames =
 		{
-			"shIndex", "strName", "strElmoUserID", "strElmoKnightsName", "nElmoLoyalty", "strKarusUserID", "strKarusKnightsName", "nKarusLoyalty", "nMoney"
+			"shIndex", "strName", "strElmoUserID", "strElmoKnightsName", "nElmoLoyalty", "strKarusUserID", "strKarusKnightsName", "nKarusLoyalty", "nMoney", "isClaimed"
 		};
 		return columnNames;
 	}
@@ -3215,7 +3215,7 @@ namespace full_model
 	{
 		static const std::vector<std::string> orderedColumnNames =
 		{
-			"shIndex", "strName", "strElmoUserID", "strElmoKnightsName", "nElmoLoyalty", "strKarusUserID", "strKarusKnightsName", "nKarusLoyalty", "nMoney"
+			"shIndex", "strName", "strElmoUserID", "strElmoKnightsName", "nElmoLoyalty", "strKarusUserID", "strKarusKnightsName", "nKarusLoyalty", "nMoney", "isClaimed"
 		};
 		return orderedColumnNames;
 	}
@@ -3257,7 +3257,7 @@ namespace full_model
 	{
 		static const std::unordered_set<std::string> columnNames =
 		{
-			"nRank", "strPosition", "nElmoUP", "strElmoUserID", "nElmoLoyaltyMonthly", "nElmoCheck", "nKarusUP", "strKarusUserID", "nKarusLoyaltyMonthly", "nKarusCheck", "nSalary", "UpdateDate"
+			"nRank", "strPosition", "nElmoUP", "strElmoUserID", "nElmoLoyaltyMonthly", "nElmoCheck", "nKarusUP", "strKarusUserID", "nKarusLoyaltyMonthly", "nKarusCheck", "nSalary", "UpdateDate", "isClaimed"
 		};
 		return columnNames;
 	}
@@ -3266,7 +3266,7 @@ namespace full_model
 	{
 		static const std::vector<std::string> orderedColumnNames =
 		{
-			"nRank", "strPosition", "nElmoUP", "strElmoUserID", "nElmoLoyaltyMonthly", "nElmoCheck", "nKarusUP", "strKarusUserID", "nKarusLoyaltyMonthly", "nKarusCheck", "nSalary", "UpdateDate"
+			"nRank", "strPosition", "nElmoUP", "strElmoUserID", "nElmoLoyaltyMonthly", "nElmoCheck", "nKarusUP", "strKarusUserID", "nKarusLoyaltyMonthly", "nKarusCheck", "nSalary", "UpdateDate", "isClaimed"
 		};
 		return orderedColumnNames;
 	}

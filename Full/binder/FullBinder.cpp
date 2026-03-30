@@ -5775,7 +5775,8 @@ namespace full_binder
 			{"strKarusUserID", &UserKnightsRank::BindKarusUserId},
 			{"strKarusKnightsName", &UserKnightsRank::BindKarusKnightsName},
 			{"nKarusLoyalty", &UserKnightsRank::BindKarusLoyalty},
-			{"nMoney", &UserKnightsRank::BindMoney}
+			{"nMoney", &UserKnightsRank::BindMoney},
+			{"isClaimed", &UserKnightsRank::BindIsClaimed}
 		};
 		return bindingsMap;
 	}
@@ -5825,6 +5826,11 @@ namespace full_binder
 		result.get_ref<int32_t>(colIndex, m.Money);
 	}
 
+	void UserKnightsRank::BindIsClaimed(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+	}
+
 	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
@@ -5840,7 +5846,8 @@ namespace full_binder
 			{"nKarusLoyaltyMonthly", &UserPersonalRank::BindKarusLoyaltyMonthly},
 			{"nKarusCheck", &UserPersonalRank::BindKarusCheck},
 			{"nSalary", &UserPersonalRank::BindSalary},
-			{"UpdateDate", &UserPersonalRank::BindUpdateDate}
+			{"UpdateDate", &UserPersonalRank::BindUpdateDate},
+			{"isClaimed", &UserPersonalRank::BindIsClaimed}
 		};
 		return bindingsMap;
 	}
@@ -5905,6 +5912,11 @@ namespace full_binder
 		nanodbc::timestamp tmpValue = {};
 		result.get_ref<nanodbc::timestamp>(colIndex, tmpValue);
 		m.UpdateDate = binderUtil::CTimeFromDbTime(tmpValue);
+	}
+
+	void UserPersonalRank::BindIsClaimed(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
 	}
 
 	const UserRentalItem::BindingsMapType& UserRentalItem::GetColumnBindings()

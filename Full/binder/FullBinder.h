@@ -3636,6 +3636,9 @@ namespace full_binder
 		/// \brief Binds a result's column to Money
 		static void BindMoney(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
 
+		/// \brief Binds a result's column to IsClaimed
+		static void BindIsClaimed(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
+
 	};
 
 	/// \brief generated nanodbc column binder for full_model::UserPersonalRank
@@ -3685,6 +3688,9 @@ namespace full_binder
 
 		/// \brief Binds a result's column to UpdateDate
 		static void BindUpdateDate(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
+
+		/// \brief Binds a result's column to IsClaimed
+		static void BindIsClaimed(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
 
 	};
 

@@ -1588,7 +1588,7 @@ namespace ebenezer_model
 	{
 		static const std::unordered_set<std::string> columnNames =
 		{
-			"shIndex", "strElmoUserID", "strKarusUserID", "nMoney"
+			"shIndex", "strElmoUserID", "strKarusUserID", "nMoney", "isClaimed"
 		};
 		return columnNames;
 	}
@@ -1597,7 +1597,7 @@ namespace ebenezer_model
 	{
 		static const std::vector<std::string> orderedColumnNames =
 		{
-			"shIndex", "strElmoUserID", "strKarusUserID", "nMoney"
+			"shIndex", "strElmoUserID", "strKarusUserID", "nMoney", "isClaimed"
 		};
 		return orderedColumnNames;
 	}
@@ -1639,7 +1639,7 @@ namespace ebenezer_model
 	{
 		static const std::unordered_set<std::string> columnNames =
 		{
-			"nRank", "strElmoUserID", "strKarusUserID", "nSalary"
+			"nRank", "strElmoUserID", "strKarusUserID", "nSalary", "isClaimed"
 		};
 		return columnNames;
 	}
@@ -1648,7 +1648,7 @@ namespace ebenezer_model
 	{
 		static const std::vector<std::string> orderedColumnNames =
 		{
-			"nRank", "strElmoUserID", "strKarusUserID", "nSalary"
+			"nRank", "strElmoUserID", "strKarusUserID", "nSalary", "isClaimed"
 		};
 		return orderedColumnNames;
 	}

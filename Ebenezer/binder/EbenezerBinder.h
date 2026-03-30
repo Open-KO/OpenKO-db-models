@@ -1714,6 +1714,9 @@ namespace ebenezer_binder
 		/// \brief Binds a result's column to Money
 		static void BindMoney(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
 
+		/// \brief Binds a result's column to IsClaimed
+		static void BindIsClaimed(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
+
 	};
 
 	/// \brief generated nanodbc column binder for ebenezer_model::UserPersonalRank
@@ -1739,6 +1742,9 @@ namespace ebenezer_binder
 
 		/// \brief Binds a result's column to Salary
 		static void BindSalary(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
+
+		/// \brief Binds a result's column to IsClaimed
+		static void BindIsClaimed(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
 
 	};
 

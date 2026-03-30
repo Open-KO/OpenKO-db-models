@@ -2666,7 +2666,8 @@ namespace ebenezer_binder
 			{"shIndex", &UserKnightsRank::BindIndex},
 			{"strElmoUserID", &UserKnightsRank::BindElmoUserId},
 			{"strKarusUserID", &UserKnightsRank::BindKarusUserId},
-			{"nMoney", &UserKnightsRank::BindMoney}
+			{"nMoney", &UserKnightsRank::BindMoney},
+			{"isClaimed", &UserKnightsRank::BindIsClaimed}
 		};
 		return bindingsMap;
 	}
@@ -2691,6 +2692,11 @@ namespace ebenezer_binder
 		result.get_ref<int32_t>(colIndex, m.Money);
 	}
 
+	void UserKnightsRank::BindIsClaimed(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+	}
+
 	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
 	{
 		static const BindingsMapType bindingsMap =
@@ -2698,7 +2704,8 @@ namespace ebenezer_binder
 			{"nRank", &UserPersonalRank::BindRank},
 			{"strElmoUserID", &UserPersonalRank::BindElmoUserId},
 			{"strKarusUserID", &UserPersonalRank::BindKarusUserId},
-			{"nSalary", &UserPersonalRank::BindSalary}
+			{"nSalary", &UserPersonalRank::BindSalary},
+			{"isClaimed", &UserPersonalRank::BindIsClaimed}
 		};
 		return bindingsMap;
 	}
@@ -2721,6 +2728,11 @@ namespace ebenezer_binder
 	void UserPersonalRank::BindSalary(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
 	{
 		result.get_ref<int32_t>(colIndex, m.Salary);
+	}
+
+	void UserPersonalRank::BindIsClaimed(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
 	}
 
 	const WebpageAddress::BindingsMapType& WebpageAddress::GetColumnBindings()

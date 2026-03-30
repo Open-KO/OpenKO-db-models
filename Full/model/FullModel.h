@@ -6463,6 +6463,11 @@ namespace full_model
 		/// \property Money
 		int32_t Money = {};
 
+		/// \brief Column [isClaimed]: Has stipend been claimed
+		///
+		/// \property IsClaimed
+		uint8_t IsClaimed = {};
+
 		/// \brief Returns the table name
 		static const std::string& TableName();
 
@@ -6554,6 +6559,11 @@ namespace full_model
 		///
 		/// \property UpdateDate
 		std::time_t UpdateDate;
+
+		/// \brief Column [isClaimed]: Has stipend been claimed
+		///
+		/// \property IsClaimed
+		uint8_t IsClaimed = {};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
