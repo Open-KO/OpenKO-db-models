@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"classstoredProc_1_1LoadKnightsMembers.html#a48f045241abdda8f1378a5171a0fe907":[8,0,8,36,0],
+"classstoredProc_1_1LoadPremiumServiceUser.html":[8,0,8,37],
+"classstoredProc_1_1LoadPremiumServiceUser.html#a43b00fe9da8aabd7f9151af70a6db204":[8,0,8,37,0],
+"classstoredProc_1_1LoadPremiumServiceUser.html#a490ac41ac06baa862d5879c574e43d06":[8,0,8,37,1],
 "classstoredProc_1_1LoadRentalData.html":[8,0,8,38],
 "classstoredProc_1_1LoadRentalData.html#ad9bbc342595323c3926483636dd979c1":[8,0,8,38,0],
 "classstoredProc_1_1LoadSavedMagic.html":[8,0,8,39],
