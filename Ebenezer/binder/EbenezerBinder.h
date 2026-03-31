@@ -1714,8 +1714,11 @@ namespace ebenezer_binder
 		/// \brief Binds a result's column to Money
 		static void BindMoney(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
 
-		/// \brief Binds a result's column to IsClaimed
-		static void BindIsClaimed(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
+		/// \brief Binds a result's column to IsClaimedElmo
+		static void BindIsClaimedElmo(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
+
+		/// \brief Binds a result's column to IsClaimedKarus
+		static void BindIsClaimedKarus(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex);
 
 	};
 
@@ -1743,8 +1746,11 @@ namespace ebenezer_binder
 		/// \brief Binds a result's column to Salary
 		static void BindSalary(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
 
-		/// \brief Binds a result's column to IsClaimed
-		static void BindIsClaimed(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
+		/// \brief Binds a result's column to IsClaimedElmo
+		static void BindIsClaimedElmo(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
+
+		/// \brief Binds a result's column to IsClaimedKarus
+		static void BindIsClaimedKarus(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex);
 
 	};
 

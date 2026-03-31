@@ -2667,7 +2667,8 @@ namespace ebenezer_binder
 			{"strElmoUserID", &UserKnightsRank::BindElmoUserId},
 			{"strKarusUserID", &UserKnightsRank::BindKarusUserId},
 			{"nMoney", &UserKnightsRank::BindMoney},
-			{"isClaimed", &UserKnightsRank::BindIsClaimed}
+			{"isClaimedElmo", &UserKnightsRank::BindIsClaimedElmo},
+			{"isClaimedKarus", &UserKnightsRank::BindIsClaimedKarus}
 		};
 		return bindingsMap;
 	}
@@ -2692,9 +2693,14 @@ namespace ebenezer_binder
 		result.get_ref<int32_t>(colIndex, m.Money);
 	}
 
-	void UserKnightsRank::BindIsClaimed(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	void UserKnightsRank::BindIsClaimedElmo(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedElmo);
+	}
+
+	void UserKnightsRank::BindIsClaimedKarus(ebenezer_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedKarus);
 	}
 
 	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
@@ -2705,7 +2711,8 @@ namespace ebenezer_binder
 			{"strElmoUserID", &UserPersonalRank::BindElmoUserId},
 			{"strKarusUserID", &UserPersonalRank::BindKarusUserId},
 			{"nSalary", &UserPersonalRank::BindSalary},
-			{"isClaimed", &UserPersonalRank::BindIsClaimed}
+			{"isClaimedElmo", &UserPersonalRank::BindIsClaimedElmo},
+			{"isClaimedKarus", &UserPersonalRank::BindIsClaimedKarus}
 		};
 		return bindingsMap;
 	}
@@ -2730,9 +2737,14 @@ namespace ebenezer_binder
 		result.get_ref<int32_t>(colIndex, m.Salary);
 	}
 
-	void UserPersonalRank::BindIsClaimed(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	void UserPersonalRank::BindIsClaimedElmo(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedElmo);
+	}
+
+	void UserPersonalRank::BindIsClaimedKarus(ebenezer_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedKarus);
 	}
 
 	const WebpageAddress::BindingsMapType& WebpageAddress::GetColumnBindings()

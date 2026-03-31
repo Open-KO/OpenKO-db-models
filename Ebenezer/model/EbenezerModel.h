@@ -3231,10 +3231,15 @@ namespace ebenezer_model
 		/// \property Money
 		int32_t Money = {};
 
-		/// \brief Column [isClaimed]: Has stipend been claimed
+		/// \brief Column [isClaimedElmo]: Has El Morad stipend been claimed
 		///
-		/// \property IsClaimed
-		uint8_t IsClaimed = {};
+		/// \property IsClaimedElmo
+		uint8_t IsClaimedElmo = {};
+
+		/// \brief Column [isClaimedKarus]: Has Karus stipend been claimed
+		///
+		/// \property IsClaimedKarus
+		uint8_t IsClaimedKarus = {};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();
@@ -3288,10 +3293,15 @@ namespace ebenezer_model
 		/// \property Salary
 		int32_t Salary = {};
 
-		/// \brief Column [isClaimed]: Has stipend been claimed
+		/// \brief Column [isClaimedElmo]: Has El Morad stipend been claimed
 		///
-		/// \property IsClaimed
-		uint8_t IsClaimed = {};
+		/// \property IsClaimedElmo
+		uint8_t IsClaimedElmo = {};
+
+		/// \brief Column [isClaimedKarus]: Has Karus stipend been claimed
+		///
+		/// \property IsClaimedKarus
+		uint8_t IsClaimedKarus = {};
 
 		/// \brief Returns the table name
 		static const std::string& TableName();

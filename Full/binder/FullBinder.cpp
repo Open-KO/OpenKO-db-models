@@ -5776,7 +5776,8 @@ namespace full_binder
 			{"strKarusKnightsName", &UserKnightsRank::BindKarusKnightsName},
 			{"nKarusLoyalty", &UserKnightsRank::BindKarusLoyalty},
 			{"nMoney", &UserKnightsRank::BindMoney},
-			{"isClaimed", &UserKnightsRank::BindIsClaimed}
+			{"isClaimedElmo", &UserKnightsRank::BindIsClaimedElmo},
+			{"isClaimedKarus", &UserKnightsRank::BindIsClaimedKarus}
 		};
 		return bindingsMap;
 	}
@@ -5826,9 +5827,14 @@ namespace full_binder
 		result.get_ref<int32_t>(colIndex, m.Money);
 	}
 
-	void UserKnightsRank::BindIsClaimed(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	void UserKnightsRank::BindIsClaimedElmo(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedElmo);
+	}
+
+	void UserKnightsRank::BindIsClaimedKarus(full_model::UserKnightsRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedKarus);
 	}
 
 	const UserPersonalRank::BindingsMapType& UserPersonalRank::GetColumnBindings()
@@ -5847,7 +5853,8 @@ namespace full_binder
 			{"nKarusCheck", &UserPersonalRank::BindKarusCheck},
 			{"nSalary", &UserPersonalRank::BindSalary},
 			{"UpdateDate", &UserPersonalRank::BindUpdateDate},
-			{"isClaimed", &UserPersonalRank::BindIsClaimed}
+			{"isClaimedElmo", &UserPersonalRank::BindIsClaimedElmo},
+			{"isClaimedKarus", &UserPersonalRank::BindIsClaimedKarus}
 		};
 		return bindingsMap;
 	}
@@ -5914,9 +5921,14 @@ namespace full_binder
 		m.UpdateDate = binderUtil::CTimeFromDbTime(tmpValue);
 	}
 
-	void UserPersonalRank::BindIsClaimed(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	void UserPersonalRank::BindIsClaimedElmo(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
 	{
-		result.get_ref<uint8_t>(colIndex, m.IsClaimed);
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedElmo);
+	}
+
+	void UserPersonalRank::BindIsClaimedKarus(full_model::UserPersonalRank& m, const nanodbc::result& result, short colIndex)
+	{
+		result.get_ref<uint8_t>(colIndex, m.IsClaimedKarus);
 	}
 
 	const UserRentalItem::BindingsMapType& UserRentalItem::GetColumnBindings()
