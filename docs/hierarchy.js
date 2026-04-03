@@ -242,6 +242,7 @@ var hierarchy =
       [ "storedProc::ChangeCopySerialItemTable", "classstoredProc_1_1ChangeCopySerialItemTable.html", null ],
       [ "storedProc::ChangeKnightsCape", "classstoredProc_1_1ChangeKnightsCape.html", null ],
       [ "storedProc::CheckKnights", "classstoredProc_1_1CheckKnights.html", null ],
+      [ "storedProc::ClaimUserKnightsStipend", "classstoredProc_1_1ClaimUserKnightsStipend.html", null ],
       [ "storedProc::ClearRemainUsers", "classstoredProc_1_1ClearRemainUsers.html", null ],
       [ "storedProc::CreateKnights", "classstoredProc_1_1CreateKnights.html", null ],
       [ "storedProc::CreateKnights2", "classstoredProc_1_1CreateKnights2.html", null ],
