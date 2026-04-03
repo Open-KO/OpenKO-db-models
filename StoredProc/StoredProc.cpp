@@ -237,6 +237,47 @@ namespace storedProc
 		return StoredProcedure::execute();
 	}
 
+	ClaimUserKnightsStipend::ClaimUserKnightsStipend()
+		: StoredProcedure()
+	{
+	}
+
+	ClaimUserKnightsStipend::ClaimUserKnightsStipend(std::shared_ptr<nanodbc::connection> conn) 
+		: StoredProcedure(conn)
+	{
+	}
+
+	const std::string& ClaimUserKnightsStipend::Query()
+	{
+		static const std::string query = "{CALL CLAIM_USER_KNIGHTS_STIPEND(?,?,?,?)}";
+		return query;
+	}
+
+	modelUtil::DbType ClaimUserKnightsStipend::DbType()
+	{
+		return modelUtil::DbType::GAME;
+	}
+
+	std::weak_ptr<nanodbc::result> ClaimUserKnightsStipend::execute(
+			uint8_t* ResultCode, const uint8_t Rank, const uint8_t Nation, 
+			const char* CharId) noexcept(false)
+	{
+		prepare(Query());
+		_stmt.reset_parameters();
+
+		_stmt.bind(0, ResultCode, nanodbc::statement::PARAM_OUT);
+		_stmt.bind(1, &Rank);
+		_stmt.bind(2, &Nation);
+		_stmt.bind(3, CharId);
+	
+		return StoredProcedure::execute();
+	}
+
+	ClaimUserKnightsStipend::~ClaimUserKnightsStipend()
+	{
+		flush_on_destruct();
+	}
+
 	ClearRemainUsers::ClearRemainUsers()
 		: StoredProcedure()
 	{

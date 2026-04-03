@@ -167,6 +167,31 @@ namespace storedProc
 		std::weak_ptr<nanodbc::result> execute() noexcept(false);
 	};
 
+	/// \brief Attempts to claim a stipend from USER_KNIGHTS_RANK
+	/// \class ClaimUserKnightsStipend
+	/// \xrefitem dbproc_GAME "GAME Database Stored Procedures" "GAME Database Stored Procedures" CLAIM_USER_KNIGHTS_STIPEND Attempts to claim a stipend from USER_KNIGHTS_RANK
+	class ClaimUserKnightsStipend : public detail::StoredProcedure
+	{
+	public:
+		ClaimUserKnightsStipend();
+		ClaimUserKnightsStipend(std::shared_ptr<nanodbc::connection> conn);
+
+		/// \brief Returns the query associated with preparing this statement
+		static const std::string& Query();
+
+		/// \brief Returns the associated database type for the table
+		static modelUtil::DbType DbType();
+
+		/// \brief Executes the stored procedure
+		/// \throws nanodbc::database_error
+		std::weak_ptr<nanodbc::result> execute(
+			uint8_t* ResultCode, const uint8_t Rank, const uint8_t Nation, 
+			const char* CharId) noexcept(false);
+
+		/// \brief Flushes any output variables or return values on destruction
+		~ClaimUserKnightsStipend();
+	};
+
 	/// \brief MANUAL_TODO
 	/// \class ClearRemainUsers
 	/// \xrefitem dbproc_GAME "GAME Database Stored Procedures" "GAME Database Stored Procedures" CLEAR_REMAIN_USERS MANUAL_TODO
