@@ -301,7 +301,7 @@ var annotated_dup =
       [ "ChangeCopySerialItemTable", "classstoredProc_1_1ChangeCopySerialItemTable.html", "classstoredProc_1_1ChangeCopySerialItemTable" ],
       [ "ChangeKnightsCape", "classstoredProc_1_1ChangeKnightsCape.html", "classstoredProc_1_1ChangeKnightsCape" ],
       [ "CheckKnights", "classstoredProc_1_1CheckKnights.html", "classstoredProc_1_1CheckKnights" ],
-      [ "ClaimUserKnightsStipend", "classstoredProc_1_1ClaimUserKnightsStipend.html", "classstoredProc_1_1ClaimUserKnightsStipend" ],
+      [ "ClaimUserRankStipend", "classstoredProc_1_1ClaimUserRankStipend.html", "classstoredProc_1_1ClaimUserRankStipend" ],
       [ "ClearRemainUsers", "classstoredProc_1_1ClearRemainUsers.html", "classstoredProc_1_1ClearRemainUsers" ],
       [ "CreateKnights", "classstoredProc_1_1CreateKnights.html", "classstoredProc_1_1CreateKnights" ],
       [ "CreateKnights2", "classstoredProc_1_1CreateKnights2.html", "classstoredProc_1_1CreateKnights2" ],

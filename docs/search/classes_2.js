@@ -5,7 +5,7 @@ var searchData=
   ['changecopyserialitemtable_2',['ChangeCopySerialItemTable',['../classstoredProc_1_1ChangeCopySerialItemTable.html',1,'storedProc']]],
   ['changeknightscape_3',['ChangeKnightsCape',['../classstoredProc_1_1ChangeKnightsCape.html',1,'storedProc']]],
   ['checkknights_4',['CheckKnights',['../classstoredProc_1_1CheckKnights.html',1,'storedProc']]],
-  ['claimuserknightsstipend_5',['ClaimUserKnightsStipend',['../classstoredProc_1_1ClaimUserKnightsStipend.html',1,'storedProc']]],
+  ['claimuserrankstipend_5',['ClaimUserRankStipend',['../classstoredProc_1_1ClaimUserRankStipend.html',1,'storedProc']]],
   ['clearremainusers_6',['ClearRemainUsers',['../classstoredProc_1_1ClearRemainUsers.html',1,'storedProc']]],
   ['coefficient_7',['Coefficient',['../classebenezer__binder_1_1Coefficient.html',1,'ebenezer_binder::Coefficient'],['../classebenezer__model_1_1Coefficient.html',1,'ebenezer_model::Coefficient'],['../classfull__binder_1_1Coefficient.html',1,'full_binder::Coefficient'],['../classfull__model_1_1Coefficient.html',1,'full_model::Coefficient']]],
   ['concurrent_8',['Concurrent',['../classfull__binder_1_1Concurrent.html',1,'full_binder::Concurrent'],['../classfull__model_1_1Concurrent.html',1,'full_model::Concurrent'],['../classversionmanager__binder_1_1Concurrent.html',1,'versionmanager_binder::Concurrent'],['../classversionmanager__model_1_1Concurrent.html',1,'versionmanager_model::Concurrent']]],

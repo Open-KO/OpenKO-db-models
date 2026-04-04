@@ -2,7 +2,7 @@ var searchData=
 [
   ['_7eaccountlogin_0',['~AccountLogin',['../classstoredProc_1_1AccountLogin.html#aa2865efa893d80becd24656926e2caeb',1,'storedProc::AccountLogin']]],
   ['_7eaccountlogout_1',['~AccountLogout',['../classstoredProc_1_1AccountLogout.html#a1dd7c1c6bb7b82a05f39a6d047c274d9',1,'storedProc::AccountLogout']]],
-  ['_7eclaimuserknightsstipend_2',['~ClaimUserKnightsStipend',['../classstoredProc_1_1ClaimUserKnightsStipend.html#aa1946e60bb86182383c884213efc5685',1,'storedProc::ClaimUserKnightsStipend']]],
+  ['_7eclaimuserrankstipend_2',['~ClaimUserRankStipend',['../classstoredProc_1_1ClaimUserRankStipend.html#a253a92edd7f21385f39217030acca4bc',1,'storedProc::ClaimUserRankStipend']]],
   ['_7ecreateknights_3',['~CreateKnights',['../classstoredProc_1_1CreateKnights.html#a0a5c2f447b7c776f88514a1988bb3b7f',1,'storedProc::CreateKnights']]],
   ['_7ecreateknights2_4',['~CreateKnights2',['../classstoredProc_1_1CreateKnights2.html#ac5b8212524bc3ea9375cee154df0570d',1,'storedProc::CreateKnights2']]],
   ['_7ecreatenewchar_5',['~CreateNewChar',['../classstoredProc_1_1CreateNewChar.html#acd11ec4769e8b644f39af0f65f0f910f',1,'storedProc::CreateNewChar']]],
