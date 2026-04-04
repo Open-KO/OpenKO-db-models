@@ -237,43 +237,44 @@ namespace storedProc
 		return StoredProcedure::execute();
 	}
 
-	ClaimUserKnightsStipend::ClaimUserKnightsStipend()
+	ClaimUserRankStipend::ClaimUserRankStipend()
 		: StoredProcedure()
 	{
 	}
 
-	ClaimUserKnightsStipend::ClaimUserKnightsStipend(std::shared_ptr<nanodbc::connection> conn) 
+	ClaimUserRankStipend::ClaimUserRankStipend(std::shared_ptr<nanodbc::connection> conn) 
 		: StoredProcedure(conn)
 	{
 	}
 
-	const std::string& ClaimUserKnightsStipend::Query()
+	const std::string& ClaimUserRankStipend::Query()
 	{
-		static const std::string query = "{CALL CLAIM_USER_KNIGHTS_STIPEND(?,?,?,?)}";
+		static const std::string query = "{CALL CLAIM_USER_RANK_STIPEND(?,?,?,?,?)}";
 		return query;
 	}
 
-	modelUtil::DbType ClaimUserKnightsStipend::DbType()
+	modelUtil::DbType ClaimUserRankStipend::DbType()
 	{
 		return modelUtil::DbType::GAME;
 	}
 
-	std::weak_ptr<nanodbc::result> ClaimUserKnightsStipend::execute(
-			uint8_t* ResultCode, const uint8_t Rank, const uint8_t Nation, 
-			const char* CharId) noexcept(false)
+	std::weak_ptr<nanodbc::result> ClaimUserRankStipend::execute(
+			uint8_t* ResultCode, const uint8_t RankType, const uint8_t Rank, 
+			const uint8_t Nation, const char* CharId) noexcept(false)
 	{
 		prepare(Query());
 		_stmt.reset_parameters();
 
 		_stmt.bind(0, ResultCode, nanodbc::statement::PARAM_OUT);
-		_stmt.bind(1, &Rank);
-		_stmt.bind(2, &Nation);
-		_stmt.bind(3, CharId);
+		_stmt.bind(1, &RankType);
+		_stmt.bind(2, &Rank);
+		_stmt.bind(3, &Nation);
+		_stmt.bind(4, CharId);
 	
 		return StoredProcedure::execute();
 	}
 
-	ClaimUserKnightsStipend::~ClaimUserKnightsStipend()
+	ClaimUserRankStipend::~ClaimUserRankStipend()
 	{
 		flush_on_destruct();
 	}
